@@ -1,0 +1,83 @@
+Completed:
+
+ESP 1101: Introduction to Spanish Culture  
+A study of major cultural and historical developments in Spain since Roman times: Roman and Visigothic Spain, Arab Spain (Mosque of Cordoba, the Alhambra), principal artists, such as El Greco, Velazquez, Goya, Picasso and Dali, architecture and society (Romanic, Gothic, Renaissance, Baroque and Neoclassical periods), religion and society (the Inquisition, the Jesuits, the Alumbrados and the mystics), historical events (the Reconquest, the Conquistadors, the Armada, the Spanish Empire).
+A
+
+ESP 1991: Elementary Spanish I
+Essentials of grammar, pronunciation and conversation. Oral and written exercises.
+A-
+
+ITI 1120: Introduction to Computing I  
+Problem solving and algorithm design. Basic principles of software engineering: structure decomposition, documentation, testing and debugging. Variable types, expressions and assignment. Conditional and iterative control structures. Modules and parameter passing. Recursion. Fundamental data structures: arrays, strings, matrices, records. Introduction to objects. Includes examples of applications in various disciplines, including engineering.
+A+
+
+ITI 1121: Introduction to Computing II
+Object-oriented programming. Abstraction principles: information hiding and encapsulation. Linked lists, stacks, queues, binary search trees. Iterative and recursive processing of data structures. Virtual machines.
+A+
+
+ITI 1100: Digital Systems I
+Digital computers and information. Number systems and alphanumeric codes. Binary arithmetic. Boolean algebra. Logic functions representation, minimization and realization. Analysis, design and implementation of combinational circuits. Basic sequential circuits. Latches and flip-flops. Analysis and design of simple sequential circuits. Registers and counters. Implementation of digital circuits.
+A+
+
+MAT 1320: Calculus I
+Intuitive definition of limits; continuity, statement of intermediate value theorem. Quick review of basic derivative formulas: products, chain rule, exponentials, and trigonometric functions. Derivatives of quotients, logarithms, inverse trigonometric functions. Finite difference approximations of derivatives. Analysis of functions via the first and the second derivatives; statements of extreme and mean value theorems. L'Hospital's rule. Implicit differentiation, related rates, optimization, linear approximation, Newton's method. The definite integral and the fundamental theorem of calculus. Antiderivatives of elementary functions, integrations by parts. Numerical integration: mid-point, trapozoidal rule and Simpson's rule; error analysis.
+A+
+
+MAT 1322: Calculus II
+Further techniques of integration. Improper integrals. Applications of the integral. Separable differential equations. Euler's method for differential equations. Sequences, series. Taylor's formula and series. Functions of two and three variables. Partial derivatives, the chain rule, directional derivatives, tangent planes and normal lines.
+B+
+
+MAT 1341: Introduction to Linear Algebra
+Review of complex numbers. The fundamental theorem of algebra. Review of vector and scalar products, projections. Introduction to vector spaces, linear independence, bases; function spaces. Solution of systems of linear equations, matrix algebra, determinants, eigenvalues and eigenvectors. Gram Schmidt, orthogonal projections. Linear transformations, kernel and image, their standard matrices. Applications (e.g. geometry, networks, differential equations)
+A+
+
+MAT 1348: Discrete Mathematics for Computing
+Introduction to discrete structures as a foundation to computing. Propositional logic. Fundamental structures: functions, relations, sets. The basics of counting: counting arguments, the pigeonhole principle, permutations and combinations. Introduction to proofs: direct, by contradiction, by cases, induction. Topics in graph theory: isomorphism, cycles, trees, directed graphs. Whenever possible applications from computing and information technology will be included.
+A+
+
+MAT 2377: Probability and Statistics for Engineers
+A concise survey of: combinatorial analysis; probability and random variables; discrete and continuous densities and distribution functions; expectation and variance; normal (Gaussian), binomial and Poisson distributions; statistical estimation and hypothesis testing; method of least squares, correlation and regression. The emphasis is on statistics and quality control methods for engineers.
+A+
+
+Currently Enrolled in:
+
+CEG 2136: Computer Architecture I
+Design a digital computer to execute a given instruction set. Design of digital computers. Register transfer and microoperations. Designing the instruction set, CPU and CPU control. Basic machine language programming. Using pipelines for CPU design. Designing the memory unit. Designing Input-Output subsystem.
+December 31, 2014
+
+CSI 2110: Data Structures and Algorithms
+The concept of abstract data types. Simple methods of complexity analysis. Trees. The search problem: balanced trees, binary-trees, hashing. Sorting. Graphs and simple graph algorithms: traversal, minimum spanning tree. Strings and pattern matching.
+December 31, 2014
+
+ENG 1112: Technical Report Writing
+Practice in the writing of technical reports. Topics include exposition, argumentation, presentation of technical data, and effective communication. Frequent written exercises and development of composition skills.
+December 31, 2014
+
+PSY 1101: Introduction to Psychology: Foundations
+Object and method of psychology. Historical perspective. Nervous system, consciousness. Sensory processes, perception, cognition, memory, language and thought. Emotions, motivation. Learning.
+December 31, 2014
+
+SEG 2105: Introduction to Software Engineering
+Principles of software engineering: Requirements, design and testing. Review of principles of object orientation. Object oriented analysis using UML. Frameworks and APIs. Introduction to the client-server architecture. Analysis, design and programming of simple servers and clients, introduction to user interface technology.
+December 31, 2014
+
+CSI 2101: Discrete Structures
+Discrete structures as they apply to computer science, algorithm analysis and design. Predicate logic. Review of proof techniques;application of induction to computing problems. Graph theory applications in information technology. Program correctness, preconditions, postconditions and invariants. Analysis of recursive programs using recurrence relations. Properties of integers and basic cryptographical applications.
+April 30, 2014
+
+CSI 2120: Programming Paradigms
+Presentation of the major programming paradigms: object-oriented, imperative, logic, functional. Related programming languages, their essential properties and typical applications. Programming in imperative, logic and functional languages. Influence of programming paradigms on problem solving and program design strategies. An overview of other paradigms, such as constraint-based, rule-based and event-driven programming.
+April 30, 2014
+
+CSI 2132: Databases I
+Fundamental database concepts. Entity-Relationship modeling. Relational algebra and relational calculus. Relational databases. Database definition and manipulation using SQL. Embedded SQL. Functional dependencies and normalization. Introduction to physical database design. Design and implementation of a database application in a team project.
+April 30, 2014
+
+CSI 2911: Professional Practice in Computing
+Professionalism in Computer Science. Ethical practice. Intellectual property rights. Social impact of computing. Privacy and legal issues.
+April 30, 2014
+
+PSY 1102: Introduction to Psychology: Applications
+Heredity, environment, and human development. Intelligence. Personality. Mental health, abnormal behaviour and therapeutic approaches. Social psychology.
+April 30, 2014
