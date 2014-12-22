@@ -1,28 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="40px" height="32px" viewBox="0 0 40 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
-    <!-- Generator: Sketch 3.1.1 (8761) - http://www.bohemiancoding.com/sketch -->
-    <title>ic_folder_open_48px</title>
-    <desc>Created with Sketch.</desc>
-    <defs>
-        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
-            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetInner1" result="shadowBlurInner1"></feGaussianBlur>
-            <feComposite in="shadowBlurInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.7 0" in="shadowInnerInner1" type="matrix" result="shadowMatrixInner1"></feColorMatrix>
-            <feMerge>
-                <feMergeNode in="SourceGraphic"></feMergeNode>
-                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
-            </feMerge>
-        </filter>
-    </defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <g id="ic_folder_open_48px" sketch:type="MSLayerGroup" transform="translate(-4.000000, -8.000000)">
-            <g id="Page-1" sketch:type="MSShapeGroup">
-                <g id="ic_folder_open_48px">
-                    <path d="M0,0 L48,0 L48,48 L0,48 L0,0 L0,0 Z" id="Shape"></path>
-                    <path d="M40,12 L24,12 L20,8 L8,8 C5.79,8 4.02,9.79 4.02,12 L4,36 C4,38.21 5.79,40 8,40 L40,40 C42.21,40 44,38.21 44,36 L44,16 C44,13.79 42.21,12 40,12 L40,12 L40,12 Z M40,36 L8,36 L8,16 L40,16 L40,36 L40,36 Z" id="Shape" fill="#4990E2" filter="url(#filter-1)"></path>
-                </g>
-            </g>
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="80px" height="32px" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;">
+    <g>
+        <g id="Shape">
+            <image x="-1" y="-1" width="83px" height="35px" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAAAjCAYAAADokDbBAAAFaElEQVRoge2aTYhjVRbHf+fe+17eS1KdWNV+o/gBtjo4H360ip8I2qD4Abpy424Wg2ALOptZDM4w0LgUcWB2Llxpu7BB2g9UpBSlEARp0XahrWA32mVVV6Wqk7x373HxUqkqu7o6sZNKMeQHgUBeyD//e+65553zRFUZMxjcypsfZ0/of179kE++O87syQDGIiKAbPJ1Rb3nqfuu4+kHbtrswrPm+PyCvvzOx3xzbJ5GHjDWISLIJvoUJeQ5D990DY/d/ueh6gMQVeXoLwt6379eoWEq2EoNU0rBOETMpl9WFHxOaDd58rZL2bvnT0MRfPzEoj77v9fQZIJkR504LRdmmjPoUyX4nKx5kj27LuCR3dcO1VAHsG//hzRMGVc/D1upY0opIhZEitfp1aLBo1mTl2Z+AvOF7r33uoELfuXdTwhJlYmd51OuTxKVUowt9J0pMtV7slaT947MI+ZrffjGXUMz1AF8+u0stlzDVurY8g4kis8YlV3BGlAXg3G8NPMzcEj33vuHgQo+fOwX0olJyvVJkmoNF/enz8YljLW8f2QekcP60A1XDcVQB/DzUo7ZWcbECeLi1ajsAREDTrBSQUT472fHeXH6gIbmMuozCKFPScpkOebWK87lH4/czIWTE7LY9tR2lolKCTaKkG4+70EfBkQoVSYQY/jghxMc/PJ9bZ9s4LMM7VOfolTjiKsvmuTxu65nake1K8QBqDGIdYhx67d2jye9iEGtw5TKYCymlBKyNgRfpAL6qxgWg+et71t89MLbvPnUHhVjsS7q5skVI3utREQMxjnitIIxligp47MWIfdFKuizolHv+WqhyXOvT/PPR+/QqYmKQMdMMWadidoxoTCzvx8S6xApI1Hpd0TlWsE5y80l9h08hJj1+TsEX0SU9m+EcRGxMYS4hOrv1xfynNZyg/0zh/nrPX8B1pRGghTmBY/6HPUZmueggX4NXYnofv9osagWcQ6xCUYMM0cbXBVRRKMWpU7wHp+1CXle5Ox+a+UVff0GihiMsRjncKUEEcORxkL3c7f2YkUhzzj0t8EeIP2y6/lptUkFcRGzyxaijj5VfJ7x7zsvHam+Zw58rnG5io0imq1VCw10djQKGtC8PTKRK/ilOULWAhSxrpvXNAR8uzVqeSzPz5G3W6gqxv7GzO5dTgioz0cgbz2huVQsamc7rtSSqoHg/SilAdBabnQWVddVPacWa2eRlAeF5p2SaoNc2G8pMwx81iaEU3P1KWZui8bHJuVUv4fGUDhNFdHbbcSYnigOoO2w2puxHXZLD4wjc4CMzRwgYzMHyNjMAbK+aN+u9NhuGzXjyBwgYzMHyNjMATI2c4CMzRwg29bMzUa424GNBnqnmHmmwf6WYE8/He11xDtMjHMbLnZHma42E8RuoayNMXGKWAedhdU1+owZvb4oSQtDf7OwDmCqErMQig62WMuu56fVL811Ot7Z1nVtrMXEKbZcQ6IEEKZSS9VGhM7E1DjLMwc+1+X5uaLjnbW3TJ9xjihJSSbqRKUUEaHqViPUAdxy+bm89X0L9TkSJ9ikUsxeyrVilLEFLTqhGOWKixBXQqIYfM7uSypcYSb5aqFF8B7nIuJyFeMi0nZtw473UPR1HsWxUYSLE2wcE3zOZfXS6jXFg1uLev8L77BcmsSkE4iL6G79re4lGgMIaKCiLd544o/E4nnu9WlsbSdJZQc2ijoG9j83P1tEiocgVAM2a/L07VdyTiUR6JgJcHSuofsOHmLmWJPZzBY5a0RMpZbdF1f4+92Xc2EtFYDZxSXdP3OYIw1PS1wxFRzRPXvVCZfVSzx47cVdI2GNmWPOntHXGf9H/AoWJjqsrbKF3wAAAABJRU5ErkJggg=="/>
         </g>
     </g>
 </svg>
