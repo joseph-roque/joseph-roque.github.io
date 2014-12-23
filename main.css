@@ -24,7 +24,7 @@ body {
 }
 
 header {
-    position:absolute;
+    position:fixed;
     width:100%;
     height:72px;
     background:#fdfdfd;
@@ -32,7 +32,7 @@ header {
 }
 
 #headershadow {
-    position:absolute;
+    position:fixed;
     padding-top:72px;
     width:100%;
     height:4px;
@@ -98,7 +98,7 @@ header {
 /* INDEX */
 
 #index-content {
-    padding-top:72px;
+    padding-top:80px;
 }
 
 .index-main-banner {
@@ -127,13 +127,6 @@ header {
     padding-top:2px;
     padding-bottom:2px;
     background-color:#d6d6d6;
-}
-
-.index-absolute-center {
-    padding-top:72px;
-    margin:auto;
-    position:absolute;
-    top:0; left:0; bottom:0; right:0;
 }
 
 /* ABOUT */
@@ -220,7 +213,7 @@ header {
 
 /* MEDIUM SCREENS */
 
-@media screen and (min-width:600px) and (max-width:1400px) {
+@media screen and (min-width:601px) and (max-width:1400px) {
 
     /* INDEX */
 
@@ -244,7 +237,7 @@ header {
 
 /* WIDESCREEN */
 
-@media screen and (min-width:1400px) {
+@media screen and (min-width:1401px) {
 
     /* INDEX */
 
