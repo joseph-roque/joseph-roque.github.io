@@ -133,28 +133,46 @@ img.nav-profile-img {
 
 #about-content {
     padding-top:80px;
-    margin-left:auto;
-    margin-right:auto;
 }
 
-.about-section-banner {
-    background: #ececec;
-    width:48%;
-    margin:0 0.5% 10px 1%;
-    float:left;
-}
-
-.about-section-banner h1 {
+.about-banner-header {
+    display:inline-block;
+    width:100%;
     font-family: "Montserrat", sans-serif;
-    padding:10px 10px 0 10px;
-    margin-bottom:5px;
-    margin-top:0;
+    background-color:#F6F6F6;
 }
 
-.about-section-banner p {
+.about-banner-header-text {
+    padding:0;
+    margin:4px 0 4px 4px;
+    text-align:center;
+}
+
+.about-banner-body {
+    display:inline-block;
+    width:100%;
     font-family: "Quicksand", sans-serif;
-    margin:10px 10px 0 10px;
-    padding-bottom:10px;
+    background-color:#ECECEC;
+    margin-bottom:4px;
+}
+
+.about-banner-body-text {
+    padding:0;
+    margin:8px 0 8px 8px;
+}
+
+a.no-decoration {
+    color:#000;
+}
+
+ul.skill-list {
+    list-style: none;
+    padding:0;
+    margin:0 0 8px 0;
+}
+
+.about-bold {
+    font-weight: bold;
 }
 
 /* CONTACT */
