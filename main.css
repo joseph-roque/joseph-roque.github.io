@@ -103,11 +103,11 @@ img.nav-profile-img {
 
 .uppercase {text-transform: uppercase;}
 
-/* INDEX */
-
-#index-content {
+#content {
     padding-top:80px;
 }
+
+/* INDEX */
 
 .index-main-banner {
     background:#ECECEC;
@@ -130,10 +130,6 @@ img.nav-profile-img {
 }
 
 /* ABOUT */
-
-#about-content {
-    padding-top:80px;
-}
 
 .about-banner-header {
     display:inline-block;
@@ -175,11 +171,9 @@ ul.skill-list {
     font-weight: bold;
 }
 
-/* CONTACT */
+/* WORK */
 
-#contact-content {
-    padding-top:80px;
-}
+/* CONTACT */
 
 .contact-links-logos {
     width:100%;
