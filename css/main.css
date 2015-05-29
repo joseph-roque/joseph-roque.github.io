@@ -83,19 +83,19 @@ img.nav-profile-img {
 }
 .navicon-rollover-home {
     left:18px;
-    background:url("assets/navigation/ic_home_48px.svg");
+    background:url("../assets/navigation/ic_home_48px.svg");
 }
 .navicon-rollover-about {
     left:82px;
-    background:url("assets/navigation/ic_info_outline_48px.svg");
+    background:url("../assets/navigation/ic_info_outline_48px.svg");
 }
 .navicon-rollover-work {
     left:146px;
-    background:url("assets/navigation/ic_folder_open_48px.svg");
+    background:url("../assets/navigation/ic_folder_open_48px.svg");
 }
 .navicon-rollover-contact {
     left:210px;
-    background:url("assets/navigation/ic_mail_48px.svg");
+    background:url("../assets/navigation/ic_mail_48px.svg");
 }
 .navicon-rollover {width:40px;}
 .navicon-rollover:hover {background-position:-40px;}
