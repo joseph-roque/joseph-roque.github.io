@@ -1,0 +1,13 @@
+# Site settings
+title: Joseph Roque | Developer
+email: contact@josephroque.ca
+description: > # this means to ignore newlines until "baseurl:"
+  An aspiring developer and student at the University of Ottawa,
+  pursuing an Honours B.Sc. with a Specialization in Computer Science.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://josephroque.ca" # the base hostname & protocol for your site
+twitter_username: coruon
+github_username:  joseph-roque
+
+# Build settings
+markdown: kramdown
