@@ -111,6 +111,7 @@ img.nav-profile-img {
 
 .index-main-banner {
     background:#ECECEC;
+    height:380px;
 }
 
 .index-main-banner h1 {
@@ -173,6 +174,24 @@ ul.skill-list {
 
 /* WORK */
 
+.work-main-banner {
+    background:#ECECEC;
+    height:380px;
+}
+
+.work-main-banner h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 24px;
+    margin:0;
+    text-align:center;
+}
+
+img.work-screenshot {
+    float:center;
+    width:400px;
+    height:300px;
+}
+
 /* CONTACT */
 
 .contact-links-logos {
@@ -208,8 +227,8 @@ img.contact-logo-top {
 
     /* INDEX */
 
-    .index-vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
-    .index-vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+    .vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
+    .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
     .index-main-banner {
         height:300px;
@@ -226,10 +245,6 @@ img.contact-logo-top {
         float:right;
     }
 
-    .index-absolute-center {
-        height:300px;
-    }
-
     /* ABOUT */
 
     .about-section-banner {
@@ -237,6 +252,16 @@ img.contact-logo-top {
         float:none;
         margin-left:0;
         margin-right:0;
+    }
+
+    /* WORK */
+    .work-main-banner {
+        height:300px;
+    }
+
+    .work-main-banner h1 {
+        padding-right:10px;
+        text-align:center;
     }
 }
 
@@ -246,20 +271,12 @@ img.contact-logo-top {
 
     /* INDEX */
 
-    .index-vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
-    .index-vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
-
-    .index-main-banner {
-        height:380px;
-    }
+    .vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
+    .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
     .index-main-banner img {
         width:380px;
         height:380px;
         float:right;
-    }
-
-    .index-absolute-center {
-        height:380px;
     }
 }
