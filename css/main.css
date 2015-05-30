@@ -105,6 +105,8 @@ img.nav-profile-img {
 
 #content {
     padding-top:80px;
+    padding-left:8px;
+    padding-right:8px;
 }
 
 /* INDEX */
@@ -130,85 +132,12 @@ img.nav-profile-img {
     background-color:#d6d6d6;
 }
 
-/* ABOUT */
-
-.about-banner-header {
-    display:inline-block;
-    width:100%;
-    font-family: "Montserrat", sans-serif;
-    background-color:#F6F6F6;
-}
-
-.about-banner-header-text {
-    padding:0;
-    margin:4px 0 4px 4px;
-    text-align:center;
-}
-
-.about-banner-body {
-    display:inline-block;
-    width:100%;
-    font-family: "Quicksand", sans-serif;
-    background-color:#ECECEC;
-    margin-bottom:4px;
-}
-
-.about-banner-body-text {
-    padding:0;
-    margin:8px 0 8px 8px;
-}
-
-a.no-decoration {
-    color:#000;
-}
-
-ul.skill-list {
-    list-style: none;
-    padding:0;
-    margin:0 0 8px 0;
-}
-
-.about-bold {
-    font-weight: bold;
-}
-
-/* WORK */
-
-.work-main-banner {
+.index-left-banner {
     background:#ECECEC;
-    height:380px;
 }
 
-.work-main-banner h1 {
-    font-family: "Quicksand", sans-serif;
-    font-size: 24px;
-    margin:0;
-    text-align:center;
-}
-
-img.work-screenshot {
-    float:center;
-    width:400px;
-    height:300px;
-}
-
-/* CONTACT */
-
-.contact-links-logos {
-    width:100%;
-    background-color:#2980b9;
-}
-
-img.contact-logo {
-    display:block;
-    padding-bottom:8px;
-    margin-left:auto;
-    margin-right:auto;
-    width:40;
-}
-
-img.contact-logo-top {
-    padding-top:8px;
+#title {
+    
 }
 
 /* MOBILE DEVICES */
@@ -243,25 +172,6 @@ img.contact-logo-top {
         width:0px;
         height:0px;
         float:right;
-    }
-
-    /* ABOUT */
-
-    .about-section-banner {
-        width:100%;
-        float:none;
-        margin-left:0;
-        margin-right:0;
-    }
-
-    /* WORK */
-    .work-main-banner {
-        height:300px;
-    }
-
-    .work-main-banner h1 {
-        padding-right:10px;
-        text-align:center;
     }
 }
 
