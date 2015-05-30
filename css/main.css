@@ -32,7 +32,6 @@ header {
 h6 {
     font-family: "Montserrat", sans-serif;
     text-align:center;
-    color:#000;
     margin-top:8px;
     margin-bottom:8px;
 }
@@ -157,17 +156,16 @@ img.nav-profile-img {
     background:rgba(236, 236, 236, 1);
     float:left;
     margin-top:8px;
-    padding-right:4px;
     height:380px;
 
     /* Firefox */
-    width: -moz-calc(50% - 8px);
+    width: -moz-calc(50% - 4px);
     /* WebKit */
-    width: -webkit-calc(50% - 8px);
+    width: -webkit-calc(50% - 4px);
     /* Opera */
-    width: -o-calc(50% - 8px);
+    width: -o-calc(50% - 4px);
     /* Standard */
-    width: calc(50% - 8px);
+    width: calc(50% - 4px);
 }
 
 .right-container {
@@ -177,13 +175,13 @@ img.nav-profile-img {
     height:380px;
 
     /* Firefox */
-    width: -moz-calc(50% - 8px);
+    width: -moz-calc(50% - 4px);
     /* WebKit */
-    width: -webkit-calc(50% - 8px);
+    width: -webkit-calc(50% - 4px);
     /* Opera */
-    width: -o-calc(50% - 8px);
+    width: -o-calc(50% - 4px);
     /* Standard */
-    width: calc(50% - 8px);
+    width: calc(50% - 4px);
 }
 
 footer.site-footer {
@@ -198,6 +196,11 @@ footer.site-footer {
 
 @media screen and (max-width:600px) {
 
+    body {
+        background-image: url("../assets/pattern3.gif");
+        color: #fff;
+    }
+
     #navbar {
         display:none;
     }
@@ -206,11 +209,25 @@ footer.site-footer {
         display:inline;
     }
 
-    .vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
+    .vertically-centered-banner-outer {display:table; height:auto; overflow:hidden;}
     .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
+    #content {
+        background:none;
+    }
+
+
+    .language-name {
+        background-color:rgba(0, 0, 0, 0.05);
+    }
+
     .full-banner {
-        height:300px;
+        background:rgba(255, 255, 255, 0.2);
+        color:#000;
+        height:auto;
+        overflow: auto;
+        padding-top:20px;
+        padding-bottom:20px;
     }
 
     .full-banner h1 {
@@ -224,10 +241,12 @@ footer.site-footer {
     }
 
     .left-container {
+        background:rgba(0, 0, 0, 0);
         width: 100%;
     }
 
     .right-container {
+        background:rgba(0, 0, 0, 0);
         width:100%;
         float: left;
     }
@@ -238,5 +257,9 @@ footer.site-footer {
 
     .regular-body {
         text-align: center;
+    }
+
+    footer.site-footer {
+        background:none;
     }
 }
