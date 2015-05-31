@@ -1,12 +1,9 @@
 /*
 Available font families:
 
-SUBTITLE FONTS:
-    font-family: "Josefin Sans", serif;
     font-family: "Quicksand", sans-serif;
     font-family: "Montserrat", sans-serif;
-
-BODY FONTS:
+    font-family: 'Open Sans', sans-serif;
 */
 
 html {
@@ -34,6 +31,12 @@ h6 {
     text-align:center;
     margin-top:8px;
     margin-bottom:8px;
+}
+
+strong {
+    background:rgba(236, 236, 236, 0.2);
+    padding-left:2px;
+    padding-right:2px;
 }
 
 #headershadow {
@@ -102,28 +105,14 @@ img.nav-profile-img {
 
 #content {
     background:#2c9bdf;
-    padding-top:80px;
-    padding-left:8px;
-    padding-right:8px;
+    padding-top:88px;
+    padding-left:16px;
+    padding-right:16px;
     float:left;
-    display:block;
 }
 
 .vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
 .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
-
-.language-name {
-    padding-left:2px;
-    padding-right:2px;
-    padding-top:2px;
-    padding-bottom:2px;
-    background-color:#d6d6d6;
-}
-
-.full-banner {
-    background:rgb(236, 236, 236);
-    height:380px;
-}
 
 .large-body {
     font-family: "Quicksand", sans-serif;
@@ -141,47 +130,55 @@ img.nav-profile-img {
 }
 
 .regular-body {
-    font-family: "Quicksand", sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding: 10px 15px 10px 15px;
     margin:0;
+    text-align: justify;
 }
 
-.full-banner img {
+#mobile-headshot {
+    display:none;
+}
+
+.full-banner-desktop {
+    background:rgba(236, 236, 236, 0.2);
+    height:380px;
+}
+
+img.full-banner-desktop-img {
     width:380px;
     height:380px;
     float:right;
 }
 
 .left-container {
-    background:rgba(236, 236, 236, 1);
+    background:rgba(236, 236, 236, 0.2);
     float:left;
-    margin-top:8px;
-    height:380px;
+    margin-top:16px;
 
     /* Firefox */
-    width: -moz-calc(50% - 4px);
+    width: -moz-calc(50% - 8px);
     /* WebKit */
-    width: -webkit-calc(50% - 4px);
+    width: -webkit-calc(50% - 8px);
     /* Opera */
-    width: -o-calc(50% - 4px);
+    width: -o-calc(50% - 8px);
     /* Standard */
-    width: calc(50% - 4px);
+    width: calc(50% - 8px);
 }
 
 .right-container {
-    background:rgba(236, 236, 236, 1);
+    background:rgba(236, 236, 236, 0.2);
     float:right;
-    margin-top:8px;
-    height:380px;
+    margin-top:16px;
 
     /* Firefox */
-    width: -moz-calc(50% - 4px);
+    width: -moz-calc(50% - 8px);
     /* WebKit */
-    width: -webkit-calc(50% - 4px);
+    width: -webkit-calc(50% - 8px);
     /* Opera */
-    width: -o-calc(50% - 4px);
+    width: -o-calc(50% - 8px);
     /* Standard */
-    width: calc(50% - 4px);
+    width: calc(50% - 8px);
 }
 
 footer.site-footer {
@@ -189,17 +186,12 @@ footer.site-footer {
     width:100%;
     height:100%;
     clear:both;
-    padding-top:8px;
+    padding-top:16px;
 }
 
 /* MOBILE DEVICES */
 
-@media screen and (max-width:600px) {
-
-    body {
-        background-image: url("../assets/pattern3.gif");
-        color: #fff;
-    }
+@media screen and (max-width:800px) {
 
     #navbar {
         display:none;
@@ -212,17 +204,24 @@ footer.site-footer {
     .vertically-centered-banner-outer {display:table; height:auto; overflow:hidden;}
     .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
-    #content {
-        background:none;
+    #mobile-headshot {
+        display:block;
+        background:rgba(236, 236, 236, 0.2);
+        width:100%;
+        margin-bottom:16px;
     }
 
-
-    .language-name {
-        background-color:rgba(0, 0, 0, 0.05);
+    img.full-banner-mobile-img {
+        background:rgba(236, 236, 236, 0.2);
+        display:block;
+        max-width:100%;
+        margin-right: auto;
+        margin-left: auto;
+        float:center;
     }
 
-    .full-banner {
-        background:rgba(255, 255, 255, 0.2);
+    .full-banner-desktop {
+        background:rgba(236, 236, 236, 0.2);
         color:#000;
         height:auto;
         overflow: auto;
@@ -230,14 +229,14 @@ footer.site-footer {
         padding-bottom:20px;
     }
 
-    .full-banner h1 {
+    .full-banner-desktop h1 {
         padding-right:10px;
         text-align:center;
     }
 
-    .full-banner img {
-        width:0px;
-        height:0px;
+    img.full-banner-desktop-img {
+        height: 0;
+        width: 0;
     }
 
     .left-container {
@@ -253,13 +252,5 @@ footer.site-footer {
 
     .medium-title {
         text-align: center;
-    }
-
-    .regular-body {
-        text-align: center;
-    }
-
-    footer.site-footer {
-        background:none;
     }
 }
