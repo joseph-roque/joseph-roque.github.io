@@ -142,13 +142,16 @@ img.nav-profile-img {
 
 .full-banner-desktop {
     background:rgba(236, 236, 236, 0.2);
-    height:380px;
 }
 
 img.full-banner-desktop-img {
     width:380px;
     height:380px;
     float:right;
+}
+
+.split-wrapper {
+    width:100%;
 }
 
 .left-container {
@@ -247,7 +250,6 @@ footer.site-footer {
     .right-container {
         background:rgba(0, 0, 0, 0);
         width:100%;
-        float: left;
     }
 
     .medium-title {

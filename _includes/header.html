@@ -2,15 +2,15 @@
 <header>
     <a href="{{ base }}/index.html"><img class="nav-profile-img" src="{{ base }}/assets/josephroque_headshot_64x64.png" alt="Header profile image" /></a>
     <div id="navbar">
-        {% if page.is_home %}{{ site.nav_home_self }}{% else %}{{ site.nav_home_default }}{% endif %}
-        {% if page.is_about %}{{ site.nav_about_self }}{% else %}{{ site.nav_about_default }}{% endif %}
-        {% if page.is_work %}{{ site.nav_work_self }}{% else %}{{ site.nav_work_default }}{% endif %}
-        {% if page.is_contact %}{{ site.nav_contact_self }}{% else %}{{ site.nav_contact_default }}{% endif %}
+        <a href="#top" class="uppercase">Home</a>
+        <a href="#about" class="uppercase">About</a>
+        <a href="#work" class="uppercase">Work</a>
+        <a href="#contact" class="uppercase">Contact</a>
     </div>
     <ul id="navicon">
-        {% if page.is_home %}{{ site.navicon_home_self }}{% else %}{{ site.navicon_home_default }}{% endif %}
-        {% if page.is_about %}{{ site.navicon_about_self }}{% else %}{{ site.navicon_about_default }}{% endif %}
-        {% if page.is_work %}{{ site.navicon_work_self }}{% else %}{{ site.navicon_work_default }}{% endif %}
-        {% if page.is_contact %}{{ site.navicon_contact_self }}{% else %}{{ site.navicon_contact_default }}{% endif %}
+        <li class="navicon-rollover navicon-rollover-home"><a href="#top"></a></li>
+        <li class="navicon-rollover navicon-rollover-about"><a href="#about"></a></li>
+        <li class="navicon-rollover navicon-rollover-work"><a href="#work"></a></li>
+        <li class="navicon-rollover navicon-rollover-contact"><a href="#contact"></a></li>
     </ul>
 </header>
