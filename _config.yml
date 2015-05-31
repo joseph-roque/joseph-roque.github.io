@@ -11,21 +11,3 @@ github_username:  joseph-roque
 
 # Build settings
 markdown: kramdown
-
-nav_home_self: <a href="/index.html" class="uppercase navbar-current-page">Home</a>
-nav_home_default: <a href="/index.html" class="uppercase">Home</a>
-nav_about_self: <a href="/about.html" class="uppercase navbar-current-page">About</a>
-nav_about_default: <a href="/about.html" class="uppercase">About</a>
-nav_work_self: <a href="/work.html" class="uppercase navbar-current-page">Work</a>
-nav_work_default: <a href="/work.html" class="uppercase">Work</a>
-nav_contact_self: <a href="/contact.html" class="uppercase navbar-current-page">Contact</a>
-nav_contact_default: <a href="/contact.html" class="uppercase">Contact</a>
-
-navicon_home_self: <li class="navicon-rollover navicon-rollover-home navicon-current-page"><a href="/index.html"></a></li>
-navicon_home_default: <li class="navicon-rollover navicon-rollover-home"><a href="/index.html"></a></li>
-navicon_about_self: <li class="navicon-rollover navicon-rollover-about navicon-current-page"><a href="/about.html"></a></li>
-navicon_about_default: <li class="navicon-rollover navicon-rollover-about"><a href="/about.html"></a></li>
-navicon_work_self: <li class="navicon-rollover navicon-rollover-work navicon-current-page"><a href="/work.html"></a></li>
-navicon_work_default: <li class="navicon-rollover navicon-rollover-work"><a href="/work.html"></a></li>
-navicon_contact_self: <li class="navicon-rollover navicon-rollover-contact navicon-current-page"><a href="/contact.html"></a></li>
-navicon_contact_default: <li class="navicon-rollover navicon-rollover-contact"><a href="/contact.html"></a></li>
