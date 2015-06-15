@@ -104,15 +104,12 @@ img.nav-profile-img {
 .uppercase {text-transform: uppercase;}
 
 #content {
-    background:#2c9bdf;
-    padding-top:88px;
-    padding-left:16px;
-    padding-right:16px;
-    float:left;
+    padding-top:80px
 }
 
-.vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
-.vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+.index-vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
+.index-vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+
 
 .index-main-banner {
     background:#ECECEC;
@@ -124,6 +121,17 @@ img.nav-profile-img {
     padding-left:10px;
     margin:0;
     text-align:right;
+    height:380px;
+}
+
+.index-main-banner img {
+    width:380px;
+    height:380px;
+    float:right;
+}
+    
+.index-absolute-center {
+    height:380px;
 }
 
 .split-wrapper {
@@ -189,8 +197,8 @@ footer.site-footer {
         display:inline;
     }
 
-    .vertically-centered-banner-outer {display:table; height:auto; overflow:hidden;}
-    .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+    .index-vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
+    .index-vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
     
     .index-main-banner {
         height:300px;
