@@ -114,49 +114,16 @@ img.nav-profile-img {
 .vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
 .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
-.large-body {
+.index-main-banner {
+    background:#ECECEC;
+}
+
+.index-main-banner h1 {
     font-family: "Quicksand", sans-serif;
     font-size: 24px;
     padding-left:10px;
     margin:0;
     text-align:right;
-}
-
-.medium-title {
-    font-family: "Montserrat", sans-serif;
-    text-align: left;
-    padding: 10px 15px 10px 15px;
-    margin:0;
-}
-
-.regular-body {
-    font-family: "Open Sans", sans-serif;
-    padding: 10px 15px 10px 15px;
-    margin:0;
-    text-align: justify;
-}
-
-.regular-work-body {
-    font-family: "Open Sans", sans-serif;
-    padding: 0 0 0 16px;
-    margin:0;
-    overflow: hidden;
-}
-
-#mobile-headshot {
-    display:none;
-}
-
-.full-banner-header {
-    clear:both;
-    background:rgba(236, 236, 236, 0.2);
-    float:center;
-}
-
-img.full-banner-header-img {
-    width:380px;
-    height:380px;
-    float:right;
 }
 
 .split-wrapper {
@@ -202,24 +169,6 @@ img.full-banner-header-img {
     width:100%;
 }
 
-.work-container {
-    clear:both;
-    margin: 0 16px 16px 16px;
-    overflow: hidden;
-}
-
-.work-container img {
-    float:left;
-    vertical-align: top;
-    width:150px;
-    height:150px;
-}
-
-.work-container strong {
-    background:none;
-    padding:0;
-}
-
 footer.site-footer {
     background:#2c9bdf;
     width:100%;
@@ -242,40 +191,24 @@ footer.site-footer {
 
     .vertically-centered-banner-outer {display:table; height:auto; overflow:hidden;}
     .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
-
-    #mobile-headshot {
-        display:block;
-        background:rgba(236, 236, 236, 0.2);
-        width:100%;
-        margin-bottom:16px;
+    
+    .index-main-banner {
+        height:300px;
     }
 
-    img.full-banner-mobile-img {
-        background:rgba(236, 236, 236, 0.2);
-        display:block;
-        max-width:100%;
-        margin-right: auto;
-        margin-left: auto;
-        float:center;
-    }
-
-    .full-banner-header {
-        clear:both;
-        color:#000;
-        height:auto;
-        overflow: auto;
-        padding-top:20px;
-        padding-bottom:20px;
-    }
-
-    .full-banner-header h1 {
+    .index-main-banner h1 {
         padding-right:10px;
         text-align:center;
     }
 
-    img.full-banner-header-img {
-        height: 0;
-        width: 0;
+    .index-main-banner img {
+        width:0px;
+        height:0px;
+        float:right;
+    }
+
+    .index-absolute-center {
+        height:300px;
     }
 
     .left-container {
@@ -290,21 +223,5 @@ footer.site-footer {
 
     .full-container {
         background:rgba(0, 0, 0, 0);
-    }
-
-    .work-container img {
-        display:block;
-        margin-left:auto;
-        margin-right:auto;
-        float:center;
-    }
-
-    .regular-work-body {
-        padding:0;
-        width:100%;
-    }
-
-    .medium-title {
-        text-align: center;
     }
 }
