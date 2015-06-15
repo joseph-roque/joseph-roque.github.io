@@ -18,14 +18,6 @@ body {
     background-color:#2C9BDF;
 }
 
-header {
-    position:fixed;
-    width:100%;
-    height:72px;
-    background:#fdfdfd;
-    z-index:999;
-}
-
 h6 {
     font-family: "Montserrat", sans-serif;
     text-align:center;
@@ -38,6 +30,14 @@ strong {
     background:rgba(236, 236, 236, 0.2);
     padding-left:2px;
     padding-right:2px;
+}
+
+header {
+    position:fixed;
+    width:100%;
+    height:72px;
+    background:#fdfdfd;
+    z-index:999;
 }
 
 #headershadow {
@@ -108,15 +108,15 @@ img.nav-profile-img {
     padding-top:80px
 }
 
-.index-vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
-.index-vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+.vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
+.vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
-.index-main-banner {
+.main-banner {
     background:#ECECEC;
     height:380px
 }
 
-.index-main-banner h1 {
+.main-banner h1 {
     font-family: "Quicksand", sans-serif;
     font-size: 24px;
     padding-left:10px;
@@ -124,7 +124,7 @@ img.nav-profile-img {
     text-align:right;
 }
 
-.index-main-banner img {
+.main-banner img {
     width:380px;
     height:380px;
     float:right;
@@ -178,7 +178,6 @@ footer.site-footer {
     width:100%;
     height:100%;
     clear:both;
-    padding-top:16px;
 }
 
 /* MOBILE DEVICES */
@@ -193,26 +192,22 @@ footer.site-footer {
         display:inline;
     }
 
-    .index-vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
-    .index-vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+    .vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
+    .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
     
-    .index-main-banner {
+    .main-banner {
         height:300px;
     }
 
-    .index-main-banner h1 {
+    .main-banner h1 {
         padding-right:10px;
         text-align:center;
     }
 
-    .index-main-banner img {
+    .main-banner img {
         width:0px;
         height:0px;
         float:right;
-    }
-
-    .index-absolute-center {
-        height:300px;
     }
 
     .left-container {
