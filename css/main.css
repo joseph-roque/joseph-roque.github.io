@@ -3,7 +3,6 @@ Available font families:
 
     font-family: "Quicksand", sans-serif;
     font-family: "Montserrat", sans-serif;
-    font-family: 'Open Sans', sans-serif;
 */
 
 html {
@@ -15,7 +14,7 @@ body {
     margin:0;
     min-height:100%;
     height:100%;
-    background-color:#2C9BDF;
+    background-color:#2c9bdf;
 }
 
 h6 {
@@ -105,28 +104,37 @@ img.nav-profile-img {
 .uppercase {text-transform: uppercase;}
 
 #content {
-    padding-top:80px
+    background-color:#2c9bdf;
+    padding-top:80px;
 }
 
 .container-title {
     font-family:"Montserrat",sans-serif;
-    text-align:left;
+    color:#fff;
+    text-align:center;
     padding:10px 15px 10px 15px;
     margin:0;
 }
 
 .container-body {
-    font-family:"Open Sans",sans-serif;
+    font-family:"Quicksand",sans-serif;
+    color:#fff;
     padding:10px 15px 10px 15px;
     margin:0;
     text-align:justify;
+}
+
+.list-body {
+    font-family:"Quicksand",sans-serif;
+    color:#fff;
+    margin-bottom:8px
 }
 
 .vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
 .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
 
 .main-banner {
-    background:#ECECEC;
+    background:#ececec;
     height:380px
 }
 
@@ -145,7 +153,12 @@ img.nav-profile-img {
 }
 
 .split-wrapper {
+    background-color:#2c9bdf;
     width:100%;
+}
+
+.split-wrapper li {
+    padding-bottom:8px
 }
 
 .left-container {
@@ -153,15 +166,16 @@ img.nav-profile-img {
     float:left;
     margin-top:16px;
     margin-bottom:16px;
+    margin-left:16px;
 
     /* Firefox */
-    width: -moz-calc(50% - 8px);
+    width: -moz-calc(50% - 24px);
     /* WebKit */
-    width: -webkit-calc(50% - 8px);
+    width: -webkit-calc(50% - 24px);
     /* Opera */
-    width: -o-calc(50% - 8px);
+    width: -o-calc(50% - 24px);
     /* Standard */
-    width: calc(50% - 8px);
+    width: calc(50% - 24px);
 }
 
 .right-container {
@@ -169,15 +183,16 @@ img.nav-profile-img {
     float:right;
     margin-top:16px;
     margin-bottom:16px;
+    margin-right:16px;
 
     /* Firefox */
-    width: -moz-calc(50% - 8px);
+    width: -moz-calc(50% - 24px);
     /* WebKit */
-    width: -webkit-calc(50% - 8px);
+    width: -webkit-calc(50% - 24px);
     /* Opera */
-    width: -o-calc(50% - 8px);
+    width: -o-calc(50% - 24px);
     /* Standard */
-    width: calc(50% - 8px);
+    width: calc(50% - 24px);
 }
 
 .full-container {
@@ -235,16 +250,12 @@ footer.site-footer {
     }
 
     .left-container {
-        background-color:#2980b9;
         width: 100%;
+        margin-left:0;
     }
 
     .right-container {
-        background-color:#2980b9;
         width:100%;
-    }
-
-    .full-container {
-        background-color:#2980b9;
+        margin-right:0;
     }
 }
