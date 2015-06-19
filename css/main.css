@@ -155,6 +155,9 @@ img.nav-profile-img {
 .split-wrapper {
     background-color:#2c9bdf;
     width:100%;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
 }
 
 .split-wrapper li {
@@ -164,35 +167,33 @@ img.nav-profile-img {
 .left-container {
     background-color:#2980b9;
     float:left;
-    margin-top:16px;
-    margin-bottom:16px;
-    margin-left:16px;
+    margin: 16px 8px 16px 16px;
+    flex: 1;
 
     /* Firefox */
-    width: -moz-calc(50% - 24px);
+    /* width: -moz-calc(50% - 24px); */
     /* WebKit */
-    width: -webkit-calc(50% - 24px);
+    /* width: -webkit-calc(50% - 24px); */
     /* Opera */
-    width: -o-calc(50% - 24px);
+    /* width: -o-calc(50% - 24px); */
     /* Standard */
-    width: calc(50% - 24px);
+    /* width: calc(50% - 24px); */
 }
 
 .right-container {
     background-color:#2980b9;
     float:right;
-    margin-top:16px;
-    margin-bottom:16px;
-    margin-right:16px;
+    margin: 16px 16px 16px 8px;
+    flex: 1;
 
     /* Firefox */
-    width: -moz-calc(50% - 24px);
+    /* width: -moz-calc(50% - 24px); */
     /* WebKit */
-    width: -webkit-calc(50% - 24px);
+    /* width: -webkit-calc(50% - 24px); */
     /* Opera */
-    width: -o-calc(50% - 24px);
+    /* width: -o-calc(50% - 24px); */
     /* Standard */
-    width: calc(50% - 24px);
+    /* width: calc(50% - 24px); */
 }
 
 .full-container {
@@ -248,14 +249,18 @@ footer.site-footer {
         height:0px;
         float:right;
     }
+    
+    .split-wrapper {
+        display: block;
+    }
 
     .left-container {
-        width: 100%;
         margin-left:0;
+        margin-right:0;
     }
 
     .right-container {
-        width:100%;
+        margin-left:0;
         margin-right:0;
     }
 }
