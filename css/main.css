@@ -255,12 +255,12 @@ footer.site-footer {
     }
 
     .left-container {
-        margin-left:0;
-        margin-right:0;
+        width:100%;
+        margin: 16px;
     }
 
     .right-container {
-        margin-left:0;
-        margin-right:0;
+        width:100%;
+        margin: 16px;
     }
 }
