@@ -250,6 +250,18 @@ img.nav-profile-img {
     background: url("../assets/work/beardmas.png");
 }
 
+.contact-icon-list {
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.contact-icon {
+    width:75px;
+    height:75px;
+    margin: 0 0 16px 0;
+}
+
 footer.site-footer {
     background:#2c9bdf;
     width:100%;
