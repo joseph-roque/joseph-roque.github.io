@@ -200,11 +200,10 @@ img.nav-profile-img {
     background-color:#2c9bdf;
     clear:both;
     width:100%;
-    margin:0 16px 16px 16px;
 }
 
 .flex-list {
-    padding:0;
+    padding:0 8px 0 8px;
     margin:0;
     list-style:none;
     
@@ -220,15 +219,35 @@ img.nav-profile-img {
 
 .flex-item {
     background: #000;
-    padding: 5px;
     width: 200px;
     height: 200px;
-    margin-top: 10px;
+    margin: 0px 8px 16px 8px;
     box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
 }
 
 .work-bowling {
     background: url("../assets/work/bowling.png")
+}
+.work-partner {
+    background: url("../assets/work/beardmas.png");
+}
+.work-beardmas {
+    background: url("../assets/work/beardmas.png");
+}
+.work-bunny {
+    background: url("../assets/work/beardmas.png");
+}
+.work-learner {
+    background: url("../assets/work/beardmas.png");
+}
+.work-tinies {
+    background: url("../assets/work/beardmas.png");
+}
+.work-graphics {
+    background: url("../assets/work/beardmas.png");
+}
+.work-writing {
+    background: url("../assets/work/beardmas.png");
 }
 
 footer.site-footer {
