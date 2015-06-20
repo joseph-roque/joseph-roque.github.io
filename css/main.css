@@ -103,6 +103,7 @@ a.anchor {
     padding:10px 15px 10px 15px;
     margin:0;
     text-align:justify;
+    background-color:#2980b9;
 }
 
 .list-body {
@@ -207,6 +208,27 @@ a.anchor {
 .contact-icon img {
     width:75px;
     height:75px;
+}
+
+.graphic-design {
+    max-width:800px;
+    margin:0 auto;
+}
+
+.design-item img {
+    display:block;
+    margin: 0 8px 16px 8px;
+    width:100%;
+    max-width:300px;
+    height:auto;
+}
+
+.design-item p {
+    margin: 0 8px 16px 8px;
+    max-width:300px;
+    padding-left:0;
+    padding-right:0;
+    text-align: center;
 }
 
 footer.site-footer {
