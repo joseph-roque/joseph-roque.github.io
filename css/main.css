@@ -214,6 +214,7 @@ img.nav-profile-img {
 .work-icon img {
     width:200px;
     height:200px;
+    z-index:1;
 }
 
 .contact-icon img {
@@ -236,6 +237,12 @@ footer.site-footer {
 }
 
 /* MOBILE DEVICES */
+
+@media screen and (max-width:400px) {
+    .flex-list {
+        flex-direction:column;
+    }
+}
 
 @media screen and (max-width:600px) {
 
