@@ -7,6 +7,19 @@ title: Joseph Roque | Developer
 
 {% include base.html %}
 
+<svg height="0" xmlns="http://www.w3.org/2000/svg">
+    <filter id="drop-shadow">
+        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+        <feOffset dx="8" dy="8" result="offsetblur"/>
+        <feFlood flood-color="rgba(0,0,0,0.75)"/>
+        <feComposite in2="offsetblur" operator="in"/>
+        <feMerge>
+            <feMergeNode/>
+            <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+    </filter>
+</svg>
+
 <!-- Introduction -->
 
 <div id="top"></div>
@@ -23,7 +36,7 @@ title: Joseph Roque | Developer
 
 <div id="about" class="split-wrapper">
     <div class="left-container">
-        <h1 class="container-title uppercase">About me </h1>
+        <h1 class="container-title uppercase">About me</h1>
         <p class="container-body">I'm currently headed into my 3rd year at the University of Ottawa. I am pursuing an <strong>Honours B.Sc. with a Specialization in Computer Science</strong> and am currently earning a <strong>9.6 GPA</strong> (out of 10) across all my Computer Science courses (9.3 overall).</p>
         <p class="container-body">I started learning to program in the 7th grade with ActionScript 2.0, which led me to focus my high school studies on Computer Science and programming. All I've wanted to do with my life since is program.</p>
         <p class="container-body">In addition to programming, however, I also love to write when I can find the time, and try to stay in shape by running in the summer and nordic skiing in the winter.</p>
@@ -31,30 +44,35 @@ title: Joseph Roque | Developer
     
     <div class="right-container">
         <h1 class="container-title uppercase">Skills</h1>
-        <ul class="list-body">
-        	<li>Java - 5 years</li>
-        	<li>SQL - 6 months</li>
-        	<li>JavaScript - 2 months</li>
-        	<li>HTML/CSS - 1 year</li>
-        	<li>Python, PHP, ActionScript</li>
-        	<li>Git, SVN, CI</li>
-        	<li>Flash/Illustrator/Photoshop</li>
-        </ul>
+        <div class="center-list-wrapper">
+            <div class="center-list-inner">
+                <ul class="list-body">
+                	<li>Java - 5 years</li>
+                	<li>SQL - 6 months</li>
+                	<li>JavaScript - 2 months</li>
+                	<li>HTML/CSS - 1 year</li>
+                	<li>Python, PHP, ActionScript</li>
+                	<li>Git, SVN, CI</li>
+                	<li>Flash/Illustrator/Photoshop</li>
+                </ul>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- Work -->
 
 <div id="work" class="full-container">
+    <h1 class="container-title uppercase">Work</h1>
     <ul class="flex-list">
-        <a href="work/bowling.html"><li class="flex-item work-bowling"></li></a>
-        <a href="work/partner.html"><li class="flex-item work-partner"></li></a>
-        <a href="work/beardmas.html"><li class="flex-item work-beardmas"></li></a>
-        <a href="work/bunny.html"><li class="flex-item work-bunny"></li></a>
-        <a href="work/learner.html"><li class="flex-item work-learner"></li></a>
-        <a href="work/tinies.html"><li class="flex-item work-tinies"></li></a>
-        <a href="work/graphics.html"><li class="flex-item work-graphics"></li></a>
-        <a href="work/writing.html"><li class="flex-item work-writing"></li></a>
+        <li class="flex-item work-icon"><a href="work/bowling.html"><img src="{{ base }}/assets/work/bowling.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/partner.html"><img src="{{ base }}/assets/work/partner.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/beardmas.html"><img src="{{ base }}/assets/work/beardmas.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/bunny.html"><img src="{{ base }}/assets/work/bowling.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/learner.html"><img src="{{ base }}/assets/work/bowling.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/tinies.html"><img src="{{ base }}/assets/work/bowling.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/graphics.html"><img src="{{ base }}/assets/work/bowling.png" class="shadowed" /></a></li>
+        <li class="flex-item work-icon"><a href="work/writing.html"><img src="{{ base }}/assets/work/bowling.png" class="shadowed" /></a></li>
     </ul>
 </div>
 
@@ -75,12 +93,13 @@ Items:
 <!-- Contact -->
 
 <div id="contact" class="full-container">
-    <ul class="contact-icon-list">
-        <li class="contact-icon"><a href="https://github.com/joseph-roque"><img src="{{ base }}/assets/contact/github_white.svg"</a></li>
-        <li class="contact-icon"><a href="https://ca.linkedin.com/in/josephroque4"><img src="{{ base }}/assets/contact/linkedin_white.svg"</a></li>
-        <li class="contact-icon"><a href="https://twitter.com/coruon"><img src="{{ base }}/assets/contact/twitter_white.svg"</a></li>
-        <li class="contact-icon"><a href="https://www.facebook.com/joseph.roque4"><img src="{{ base }}/assets/contact/fb_white.svg"</a></li>
-        <li class="contact-icon"><a href="mailto:contact@josephroque.ca"><img src="{{ base }}/assets/contact/mail_white.svg"</a></li>
+    <h1 class="container-title uppercase">Contact me</h1>
+    <ul class="flex-list">
+        <li class="flex-item contact-icon"><a href="https://github.com/joseph-roque"><img src="{{ base }}/assets/contact/github_white.svg" /></a></li>
+        <li class="flex-item contact-icon"><a href="https://ca.linkedin.com/in/josephroque4"><img src="{{ base }}/assets/contact/linkedin_white.svg" /></a></li>
+        <li class="flex-item contact-icon"><a href="https://twitter.com/coruon"><img src="{{ base }}/assets/contact/twitter_white.svg" /></a></li>
+        <li class="flex-item contact-icon"><a href="https://www.facebook.com/joseph.roque4"><img src="{{ base }}/assets/contact/fb_white.svg" /></a></li>
+        <li class="flex-item contact-icon"><a href="mailto:contact@josephroque.ca"><img src="{{ base }}/assets/contact/mail_white.svg" /></a></li>
     </ul>
 </div>
 
