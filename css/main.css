@@ -68,33 +68,27 @@ img.nav-profile-img {
 
 #navicon {
     display:none;
-    position:relative;
 }
-#navicon li {
+/*#navicon li {
     margin:0;
     padding:0;
     list-style:none;
     position:absolute;
     top:16px;
-}
+}*/
 #navicon li, #navicon a {
     height:40px;
-    display:block;
 }
 .navicon-rollover-home {
-    left:18px;
     background:url("../assets/navigation/ic_home_48px.svg");
 }
 .navicon-rollover-about {
-    left:82px;
     background:url("../assets/navigation/ic_info_outline_48px.svg");
 }
 .navicon-rollover-work {
-    left:146px;
     background:url("../assets/navigation/ic_folder_open_48px.svg");
 }
 .navicon-rollover-contact {
-    left:210px;
     background:url("../assets/navigation/ic_mail_48px.svg");
 }
 .navicon-rollover {width:40px;}
@@ -256,7 +250,22 @@ footer.site-footer {
     }
 
     #navicon {
-        display:inline;
+        padding:0;
+        margin:16px auto;
+        list-style:none;
+
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+
+        -webkit-flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    .navicon-flex-item {
+        margin:0 auto;
     }
     
     .container-title {
