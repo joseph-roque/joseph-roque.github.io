@@ -210,10 +210,11 @@ img.nav-profile-img {
     
     -webkit-flex-flow: row wrap;
     justify-content: space-around;
+    align-items: center;
 }
 
 .flex-item {
-    margin: 0px 8px 16px 8px;
+    margin: 0px auto 16px auto;
 }
 
 .work-icon img {
@@ -301,9 +302,5 @@ footer.site-footer {
     .work-icon img {
         width:100px;
         height:100px;
-    }
-
-    .contact-icon img {
-
     }
 }
