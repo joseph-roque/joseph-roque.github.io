@@ -340,6 +340,8 @@ footer.site-footer {
 
     .left-container {
         float:none;
+        margin-left: 16px;
+        margin-right: 16px;
 
         /* Firefox */
         width: -moz-calc(100% - 32px);
@@ -353,6 +355,8 @@ footer.site-footer {
 
     .right-container {
         float:none;
+        margin-left: 16px;
+        margin-right: 16px;
 
         /* Firefox */
         width: -moz-calc(100% - 32px);
