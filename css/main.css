@@ -66,6 +66,7 @@ a.anchor {
     font-size:18px;
     margin-top:26px;
 }
+
 #navbar a {margin-left:28px;}
 #navbar a:link {text-decoration:none; color:#222;}
 #navbar a:visited {text-decoration:none; color:#222;}
@@ -73,14 +74,8 @@ a.anchor {
 #navbar a:active {text-decoration:none; color:#bbb;}
 #navbar a.navbar-current-page {color:#999;}
 
-#navicon {
-    display:none;
-}
-#navicon li, #navicon a {
-    height:40px;
-}
-.navicon-rollover {
-}
+#navicon {display:none;}
+#navicon li, #navicon a {height:40px;}
 
 .uppercase {text-transform: uppercase;}
 
@@ -112,8 +107,18 @@ a.anchor {
     margin-bottom:8px
 }
 
-.vertically-centered-banner-outer {display:table; height:380px; overflow:hidden;}
-.vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+.vertically-centered-banner-outer {
+    display:table;
+    height:380px;
+    overflow:hidden;
+    float:right;
+}
+
+.vertically-centered-banner-inner {
+    display:table-cell;
+    vertical-align:
+    middle;
+}
 
 .main-banner {
     background:#ececec;
@@ -316,8 +321,18 @@ footer.site-footer {
         text-align:center;
     }
 
-    .vertically-centered-banner-outer {display:table; height:300px; overflow:hidden;}
-    .vertically-centered-banner-inner {display:table-cell; vertical-align: middle;}
+    .vertically-centered-banner-outer {
+        display:table;
+        height:300px;
+        overflow:hidden;
+        float:none;
+    }
+
+    .vertically-centered-banner-inner {
+        display:table-cell
+         vertical-align:
+         middle;
+     }
 
     .main-banner {
         height:300px;
