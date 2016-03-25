@@ -31,9 +31,70 @@ a {
 }
 
 .content {
-  margin-left: $sidebar-width;
-  overflow-x: hidden;
+  width: 100%;
   height: 100%;
+  overflow-x: hidden;
+  margin-left: $sidebar-width;
+  font-size: 0;
+}
+
+// Sections
+
+#about {
+  min-height: 100vh;
+  position: relative;
+}
+
+#projects {
+  min-height: 100vh;
+  position: relative;
+}
+
+#work {
+  min-height: 100vh;
+  position: relative;
+}
+
+#contact {
+  min-height: 100vh;
+  position: relative;
+}
+
+// Section dividers
+
+.divider {
+  padding: 0;
+  margin: 0;
+  height: 150px;
+  width: 100%;
+
+  &.bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    -webkit-transform: rotate(180deg);
+    -ms-transform:rotate(180deg);
+    transform: rotate(180deg);
+  }
+}
+
+// Background colors
+
+svg.gray {
+  fill: #EBEBEB;
+}
+
+svg.blue {
+  fill: #3FA9F5;
+}
+
+svg.orange {
+  fill: #FBB03B;
+}
+
+svg.red {
+  fill: #D4145A;
 }
 
 // Sidebar properties
