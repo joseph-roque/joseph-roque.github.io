@@ -12,7 +12,7 @@
       image: /assets/links/github.svg
 
 - name: 12 Days of Beardmas
-  description: An Android app to celebrate the annual event, the 12 Days of Beardmas (an event created by myself). Plays music while providing a graphic for each day of 12 Days of Beardmas, at the end of November.
+  description: An <strong>Android</strong> app to celebrate the annual event, the 12 Days of Beardmas (an event created by myself). Plays music while providing a graphic for each day of 12 Days of Beardmas, at the end of November.
   tags: Android, Java, Graphic Design
   image: /assets/projects/beardmas.png
   time: November 2014
@@ -22,7 +22,7 @@
       image: /assets/links/github.svg
 
 - name: TipCalc
-  description: Developed a Pebble app in C to calculate the tip on a restaurant bill. Provide the subtotal and level of service, a recommended tip is provided, and the total is displayed. Over 1,000 downloads in the Pebble App Store.
+  description: Developed a <strong>Pebble</strong> app in <strong>C</strong> to calculate the tip on a restaurant bill. Provide the subtotal and level of service, a recommended tip is provided, and the total is displayed. Over 1,000 downloads in the Pebble App Store.
   tags: C, Pebble
   image: /assets/projects/tipcalc.png
   time: August 2015
@@ -32,7 +32,7 @@
       image: /assets/links/github.svg
 
 - name: Distant Pairs
-  description: An Android / iOS app to help couples keep in touch over long distances.
+  description: An <strong>Android</strong> / <strong>iOS</strong> app to help couples keep in touch over long distances.
   tags: Android, Java, Swift
   image: /assets/projects/partner.png
   time: May 2015 - August 2015
@@ -45,7 +45,7 @@
       image: /assets/links/github.svg
 
 - name: Bowling Companion for Pebble
-  description: A Pebble app built in C and JavaScript to accompany 5 Pin Bowling Companion for Android. Allows users to input their bowling statistics from their Pebble watch.
+  description: A <strong>Pebble</strong> app built in <strong>C</strong> and <strong>JavaScript</strong> to accompany 5 Pin Bowling Companion for Android. Allows users to input their bowling statistics from their Pebble watch.
   tags: C, JavaScript, Pebble
   image: /assets/projects/white_pixel.png
   time: July 2015 - Present
@@ -55,7 +55,7 @@
       image: /assets/links/github.svg
 
 - name: Bowling Companion Transfer
-  description: A RESTful API to facilitate transferring of one's 5 Pin Bowling Companion data to a new device. The API handles uploading, storing the data for up to 1 hour, and letting the user download their data again later.
+  description: A <strong>RESTful API</strong> to facilitate transferring of one's 5 Pin Bowling Companion data to a new device. The API handles uploading, storing the data for up to 1 hour, and letting the user download their data again later.
   tags: Node.js, JavaScript
   image: /assets/projects/white_pixel.png
   time: March 2016
@@ -75,7 +75,7 @@
       image: /assets/links/github.svg
 
 - name: Swip
-  description: A basic mobile game created using libGDX. Swipe the ball through the wall with the matching color.
+  description: A basic mobile game created using <strong>libGDX</strong>. Swipe the ball through the wall with the matching color.
   tags: Java, libGDX, Android, iOS
   image: /assets/projects/white_pixel.png
   time: August 2015 - October 2015
