@@ -80,6 +80,29 @@ title: Joseph Roque | Developer
         <hr />
       {% endif %}
     {% endfor %}
+
+    <h2 class='section-title'>Other Projects</h2>
+    {% for project in site.data.projects_other %}
+      <div class='project'>
+        <img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' />
+        <div class='body'>
+          <h2>{{ project.name }}</h2>
+          <h6>{{ project.tags }}</h6>
+          <p>{{ project.description }}</p>
+          <div class='links'>
+            {% for link in project.links %}
+              <div class='link'>
+                <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
+                <p><a href='{{ link.url }}'>{{ link.name }}</a></p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% if forloop.last == false %}
+        <hr />
+      {% endif %}
+    {% endfor %}
   </div>
 
   <!-- Bottom divider -->
