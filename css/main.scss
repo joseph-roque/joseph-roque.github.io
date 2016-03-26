@@ -319,8 +319,6 @@ svg.red {
 
   .indicator-filled {
     position: absolute;
-    width: 0;
-    height: 0;
     z-index: 2;
     left: 50%;
     top: 50%;
@@ -329,4 +327,24 @@ svg.red {
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
   }
+}
+
+#about-indicator {
+  width: 0;
+  height: 0;
+}
+
+#projects-indicator {
+  width: 0;
+  height: 0;
+}
+
+#work-indicator {
+  width: 0;
+  height: 0;
+}
+
+#contact-indicator {
+  width: 0;
+  height: 0;
 }
