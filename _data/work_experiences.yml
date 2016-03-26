@@ -1,0 +1,16 @@
+- name: Microsoft
+  position: Software Engineering Intern
+  time: January 2016 - April 2016
+  highlights:
+    - point: Participated in overhaul of the NFL app for Xbox One and Windows 10 for the 16/17 season
+    - point: Responsible for improving user experience throughout the app by implementing variations of live, constantly updating tiles, and fixing bugs
+    - point: Worked with Lua, C#, and XAML, with peer review for each commit, build reviews, and daily scrums
+
+- name: ADGA
+  position: Junior Developer
+  time: May 2015 - August 2015
+  highlights:
+    - point: Full responsibility for design and development of a new Android application
+    - point: Shared responsibility of back end server development of a Node.js server
+    - point: Taught teammates (qualified software engineers) about the basics of Java and Android to the point of being able to contribute to development of the Android app alongside me
+    - point: Participation in an agile/scrum software development environment
