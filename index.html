@@ -119,6 +119,27 @@ title: Joseph Roque | Developer
   </svg>
   <!-- End top divider -->
 
+  <h1 class='title'>Work Experience</h1>
+
+  <div class='section'>
+    <h2 class='section-title'>Software Experience</h2>
+    {% for work in site.data.work_experiences %}
+      <div class='work'>
+        <h2>{{ work.name }}, <span class='position'>{{ work.position }}</span></h2>
+        <h6>{{ work.time }}</h6>
+        <div class='tasks'>
+          <ul>
+            {% for task in work.tasks %}
+              <li>{{ task.point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% if forloop.last == false %}
+        <hr />
+      {% endif %}
+    {% endfor %}
+
   <!-- Bottom divider -->
   <svg class='divider bottom red' preserveAspectRatio='none' viewBox='0 0 800 150' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'>
       <path d='M800,0L0,0L0,150L800,75L800,0Z' />
@@ -132,6 +153,8 @@ title: Joseph Roque | Developer
       <path d='M800,0L0,0L0,150L800,75L800,0Z' />
   </svg>
   <!-- End top divider -->
+
+  <h1 class='title'>Contact</h1>
 
   <div class='icons center-vertical'>
     <a href='https://github.com/joseph-roque/'><img src='{{ base }}/assets/contact/github.svg' alt='GitHub' /></a>

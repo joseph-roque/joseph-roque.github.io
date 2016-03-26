@@ -109,6 +109,43 @@ a {
 #work {
   min-height: 100vh;
   position: relative;
+
+  span.position {
+    font-style: italic;
+    font-size: 20px;
+  }
+
+  hr {
+    float: left;
+    width: 700px;
+    margin-bottom: 16px;
+  }
+
+  h6 {
+    color: #666;
+    margin: 8px 0 0 0;
+  }
+
+  .tasks {
+    margin-top: 8px;
+
+    li {
+      margin-top: 4px;
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 16px;
+    }
+  }
+
+  .work {
+    clear: both;
+    margin-bottom: 16px;
+    width: 700px;
+  }
+
+  .section {
+    padding-bottom: 140px;
+    padding-top: calc(#{$title-offset} - 40px);
+  }
 }
 
 #contact {
