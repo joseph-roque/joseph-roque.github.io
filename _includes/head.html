@@ -12,9 +12,12 @@
     <meta name="author" content="Joseph Roque" />
 
 	<link rel="stylesheet" href="{{ base }}/css/main.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="{{ base }}/js/script.js" ></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+  {% if page.loadjs %}
+    <script type="text/javascript" src="{{ base }}/js/script.js" ></script>
+  {% endif %}
 
 	<!-- FAVICON BEGINS -->
 	<link rel="apple-touch-icon" sizes="57x57" href="assets/favicon/apple-touch-icon-57x57.png">
