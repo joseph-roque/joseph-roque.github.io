@@ -6,8 +6,10 @@
   links:
     - name: bowlingcompanion.ca
       url: http://bowlingcompanion.ca
+      image: /assets/links/link.svg
     - name: GitHub // bowling-companion
       url: https://github.com/joseph-roque/bowling-companion
+      image: /assets/links/github.svg
 
 - name: The Broken Quill Society
   description: Designed and developed a Ruby on Rails app for the University of Ottawa Creative Writing Club for members to share their personal works and offer feedback on each other's writing. I am currently acting as webmaster of the club, managing the site through Amazon EC2.
@@ -17,17 +19,20 @@
   links:
     - name: thebrokenquillsociety.com
       url: http://thebrokenquillsociety.com
+      image: /assets/links/link.svg
     - name: GitHub // thebrokenquillsociety
       url: https://github.com/joseph-roque/thebrokenquillsociety
+      image: /assets/links/github.svg
 
 - name: Lead the Bunny / Ludum Dare
-  description: A 2D Java game made for Ludum Dare 26. The theme of minimalism led to the decision to only have ne control: leading the bunny with your mouse.
+  description: A 2D Java game made for Ludum Dare 26. The theme of minimalism led to the decision to only have one control - leading the bunny with your mouse.
   tags: Java, Ludum Dare, 2D Game
   image: /assets/projects/bunny.png
   time: August 2013
   links:
     - name: GitHub // lead-the-bunny
       url: https://github.com/joseph-roque/lead-the-bunny
+      image: /assets/links/github.svg
 
 - name: gitpizza / nwHacks
   description: It's like git, but instead of adding files, you add toppings. Commit, push, and your order is placed. More formally, gitpizza is a command line tool that uses all the commands from git to order you a pizza. Won "Best Developer Tool" at nwHacks 2016.
@@ -37,3 +42,4 @@
   links:
     - name: GitHub // gitpizza
       url: https://github.com/joseph-roque/gitpizza
+      image: /assets/links/github.svg

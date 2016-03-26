@@ -6,8 +6,10 @@
   links:
     - name: sizzl.me
       url: http://sizzl.me
+      image: /assets/links/link.svg
     - name: GitHub // CSI2132-Restaurants
       url: https://github.com/joseph-roque/CSI2132-Restaurants
+      image: /assets/links/github.svg
 
 - name: 12 Days of Beardmas
   description: An Android app to celebrate the annual event, the 12 Days of Beardmas (an event created by myself). Plays music while providing a graphic for each day of 12 Days of Beardmas, at the end of November.
@@ -17,6 +19,7 @@
   links:
     - name: GitHub // Beardmas
       url: https://github.com/cthomp13/Beardmas
+      image: /assets/links/github.svg
 
 - name: TipCalc
   description: Developed a Pebble app in C to calculate the tip on a restaurant bill. Provide the subtotal and level of service, a recommended tip is provided, and the total is displayed. Over 1,000 downloads in the Pebble App Store.
@@ -26,6 +29,7 @@
   links:
     - name: GitHub // tip-calc
       url: https://github.com/joseph-roque/tip-calc
+      image: /assets/links/github.svg
 
 - name: Distant Pairs
   description: An Android / iOS app to help couples keep in touch over long distances.
@@ -34,9 +38,11 @@
   time: May 2015 - August 2015
   links:
     - name: GitHub // distant-pairs-android
-    - url: https://github.com/joseph-roque/distant-pairs-android
+      url: https://github.com/joseph-roque/distant-pairs-android
+      image: /assets/links/github.svg
     - name: GitHub // distant-pairs-ios
-    - url: https://github.com/joseph-roque/distant-pairs-ios
+      url: https://github.com/joseph-roque/distant-pairs-ios
+      image: /assets/links/github.svg
 
 - name: Bowling Companion for Pebble
   description: A Pebble app built in C and JavaScript to accompany 5 Pin Bowling Companion for Android. Allows users to input their bowling statistics from their Pebble watch.
@@ -45,6 +51,7 @@
   links:
     - name: GitHub // bowling-companion-pebble
       url: https://github.com/joseph-roque/bowling-companion-pebble
+      image: /assets/links/github.svg
 
 - name: Bowling Companion Transfer
   description: A RESTful API to facilitate transferring of one's 5 Pin Bowling Companion data to a new device. The API handles uploading, storing the data for up to 1 hour, and letting the user download their data again later.
@@ -53,6 +60,7 @@
   links:
     - name: GitHub // bowling-companion-transfer
       url: https://github.com/joseph-roque/bowling-companion-transfer
+      image: /assets/links/github.svg
 
 - name: WriteBrite / HackHarvard
   description: WriteBrite is a web app which creates a collaborative writing space. Users join a room with other users and one user is selected to go first. That user gets 30 seconds to write the first lines of the story. When their turn ends, a second user is randomly selected and their 30 second turn begins, where they must continue the story started by the first user. This continues until all users feel the story is complete!
@@ -61,6 +69,7 @@
   links:
     - name: GitHub // writebrite
       url: https://github.com/joseph-roque/writebrite
+      image: /assets/links/github.svg
 
 - name: Swip
   description: A basic mobile game created using libGDX. Swipe the ball through the wall with the matching color.
@@ -69,3 +78,4 @@
   links:
     - name: GitHub // swip
       url: https://github.com/joseph-roque/swip
+      image: /assets/links/github.svg

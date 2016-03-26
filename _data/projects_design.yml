@@ -6,6 +6,7 @@
   links:
     - name: YouTube // 21st Century Learner
       url: https://www.youtube.com/watch?v=1-V7wv9lKng
+      image: /assets/links/youtube.png
 
 - name: The Tinies
   description: A short animation depicting the consequences of littering in a fictional manner. Created for a grade 11 Communications Technology final at Humberview Secondary School.
@@ -15,6 +16,7 @@
   links:
     - name: YouTube // The Tinies
       url: https://www.youtube.com/watch?v=LVh-yt0rhlo
+      image: /assets/links/youtube.png
 
 - name: Manningham
   description: An animation created to accompany a national anthem for the fictional nation of "Manningham". Animation created by myself, the national anthem written and performed by Andi Trepanier and Rachel Walls.
@@ -24,6 +26,7 @@
   links:
     - name: YouTube // Manningham
       url: https://www.youtube.com/watch?v=ntXl-2Cf3yg
+      image: /assets/links/youtube.png
 
 - name: Various design projects
   description: Some examples of my experience with Adobe Illustrator and Affinity Designer.
@@ -32,3 +35,4 @@
   links:
     - name: See examples
       url: http://josephroque.ca/design.html
+      image: /assets/links/link.svg
