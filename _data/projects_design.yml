@@ -1,6 +1,6 @@
 - name: 21st Century Learner
   description: A 2D animation created at Humberview Secondary School to promote the use of technologies in the classroom, asking educators to recognize the "21st Century Learners" students have become. Animation done by myself and Lesli Ransom, music by Justin Bailey.
-  tags: Flash
+  tags: Adobe Flash, Adobe Illustrator
   image: /assets/projects/learner.png
   time: November 2011
   links:
@@ -9,9 +9,26 @@
 
 - name: The Tinies
   description: A short animation depicting the consequences of littering in a fictional manner. Created for a grade 11 Communications Technology final at Humberview Secondary School.
-  tags: Flash
+  tags: Adobe Flash, Adobe Illustrator
   image: /assets/projects/tinies.png
   time: November 2011 - February 2012
   links:
     - name: YouTube // The Tinies
       url: https://www.youtube.com/watch?v=LVh-yt0rhlo
+
+- name: Manningham
+  description: An animation created to accompany a national anthem for the fictional nation of "Manningham". Animation created by myself, the national anthem written and performed by Andi Trepanier and Rachel Walls.
+  tags: Adobe Flash, Adobe Illustrator
+  image: /assets/projects/manningham.png
+  time: October 2012
+  links:
+    - name: YouTube // Manningham
+      url: https://www.youtube.com/watch?v=ntXl-2Cf3yg
+
+- name: Various design projects
+  description: Some examples of my experience with Adobe Illustrator and Affinity Designer.
+  tags: Adobe Illustrator, Affinity Designer
+  image: /assets/projects/graphics.png
+  links:
+    - name: See examples
+      url: http://josephroque.ca/design.html
