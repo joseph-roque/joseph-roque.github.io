@@ -7,14 +7,14 @@ title: Joseph Roque | Developer
 
 {% include base.html %}
 
-<div id='about' class='section'>
+<div id='about'>
   <!-- Top divider -->
   <svg class='divider gray' preserveAspectRatio='none' viewBox='0 0 800 150' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'>
       <path d='M800,0L0,0L0,150L800,75L800,0Z' />
   </svg>
   <!-- End top divider -->
 
-  <div class='center-vertical'>
+  <div class='center-vertical section'>
     <h1>Hi there,<br />My name's Joseph Roque.<br />I'm a 3rd year student at uOttawa<br />with a love for mobile development.</h1>
   </div>
 
@@ -25,12 +25,38 @@ title: Joseph Roque | Developer
   <!-- End bottom divider -->
 </div>
 
-<div id='projects' class='section'>
+<div id='projects'>
   <!-- Top divider -->
   <svg class='divider blue' preserveAspectRatio='none' viewBox='0 0 800 150' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'>
       <path d='M800,0L0,0L0,150L800,75L800,0Z' />
   </svg>
   <!-- End top divider -->
+
+  <div class='section'>
+    <h1>Past &amp; Current Projects</h1>
+
+    {% for project in site.data.projects_favourites %}
+      <div class='project'>
+        <img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' />
+        <div class='body'>
+          <h2>{{ project.name }}</h2>
+          <h6>{{ project.tags }}</h6>
+          <p>{{ project.description }}</p>
+          <div class='links'>
+            {% for link in project.links %}
+              <div class='link'>
+                <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
+                <p><a href='{{ link.url }}'>{{ link.name }}</a></p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% if forloop.last == false %}
+        <hr />
+      {% endif %}
+    {% endfor %}
+  </div>
 
   <!-- Bottom divider -->
   <svg class='divider bottom orange' preserveAspectRatio='none' viewBox='0 0 800 150' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'>
@@ -39,7 +65,7 @@ title: Joseph Roque | Developer
   <!-- End bottom divider -->
 </div>
 
-<div id='work' class='section'>
+<div id='work'>
   <!-- Top divider -->
   <svg class='divider orange' preserveAspectRatio='none' viewBox='0 0 800 150' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'>
       <path d='M800,0L0,0L0,150L800,75L800,0Z' />
@@ -53,7 +79,7 @@ title: Joseph Roque | Developer
   <!-- End bottom divider -->
 </div>
 
-<div id='contact' class='section'>
+<div id='contact'>
   <!-- Top divider -->
   <svg class='divider red' preserveAspectRatio='none' viewBox='0 0 800 150' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'>
       <path d='M800,0L0,0L0,150L800,75L800,0Z' />

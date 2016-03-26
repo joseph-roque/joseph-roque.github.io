@@ -43,17 +43,65 @@ a {
 #about {
   min-height: 100vh;
   position: relative;
-
-  h1 {
-    font-family: 'Quicksand', sans-serif;
-    font-size: 32px;
-    margin-left: 96px;
-  }
 }
 
 #projects {
   min-height: 100vh;
   position: relative;
+
+  hr {
+    float: left;
+    width: 600px;
+    margin-left: 116px;
+    margin-bottom: 16px;
+  }
+
+  .body {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 16px;
+    width: 600px;
+
+    h6 {
+      color: #666;
+      margin: 8px 0 0 0;
+    }
+
+    p {
+      padding-top: 8px;
+    }
+  }
+
+  .project {
+    clear: both;
+    display: table;
+    margin-bottom: 16px;
+  }
+
+  .project-img {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+  }
+
+  .link {
+    clear: both;
+    margin-top: 4px;
+
+    p {
+      padding-left: 32px;
+    }
+  }
+
+  .link-img {
+    width: 24px;
+    float: left;
+    margin-top: 4px;
+  }
+
+  .section {
+    padding-bottom: 140px;
+  }
 }
 
 #work {
@@ -79,6 +127,32 @@ a {
     width: 128px;
     height: 128px;
     margin: 16px;
+  }
+}
+
+.section {
+  margin-left: 72px;
+
+  h1 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 32px;
+  }
+
+  h2 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 24px;
+    margin: 0;
+  }
+
+  h6 {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 14px;
+  }
+
+  p {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 16px;
+    margin: 0;
   }
 }
 
