@@ -1,0 +1,17 @@
+- name: 21st Century Learner
+  description: A 2D animation created at Humberview Secondary School to promote the use of technologies in the classroom, asking educators to recognize the "21st Century Learners" students have become. Animation done by myself and Lesli Ransom, music by Justin Bailey.
+  tags: Flash
+  image: /assets/projects/learner.png
+  time: November 2011
+  links:
+    - name: YouTube // 21st Century Learner
+      url: https://www.youtube.com/watch?v=1-V7wv9lKng
+
+- name: The Tinies
+  description: A short animation depicting the consequences of littering in a fictional manner. Created for a grade 11 Communications Technology final at Humberview Secondary School.
+  tags: Flash
+  image: /assets/projects/tinies.png
+  time: November 2011 - February 2012
+  links:
+    - name: YouTube // The Tinies
+      url: https://www.youtube.com/watch?v=LVh-yt0rhlo
