@@ -28,11 +28,11 @@ var distanceOffscreen = function(element) {
   return 0;
 };
 
-var hasScrolled = function() {
+var hasScrolled = function(skipScrollCheck) {
   var scrollTop = $(window).scrollTop();
 
   // If the minimum threshold for scrolling was not met, then exit method
-  if (Math.abs(lastScrollTop - scrollTop) <= scrollThreshold) {
+  if (!skipScrollCheck && Math.abs(lastScrollTop - scrollTop) <= scrollThreshold) {
     return;
   }
 
@@ -60,6 +60,10 @@ var hasScrolled = function() {
   lastScrollTop = scrollTop;
 };
 
+$(window).load(function() {
+  hasScrolled(true);
+});
+
 $(document).ready(function() {
   $('a[href^="#"]').on('click', function(event) {
     var target = $($(this).attr('href'));
@@ -73,7 +77,7 @@ $(document).ready(function() {
 
   setInterval(function() {
     if (didScroll) {
-      hasScrolled();
+      hasScrolled(false);
       didScroll = false;
     }
   }, 50);
