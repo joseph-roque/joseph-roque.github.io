@@ -3,6 +3,7 @@
 ---
 
 $sidebar-width: 250px;
+$title-offset: 100px;
 
 /*
  * Available font families:
@@ -101,6 +102,7 @@ a {
 
   .section {
     padding-bottom: 140px;
+    padding-top: calc(#{$title-offset} - 40px);
   }
 }
 
@@ -128,6 +130,18 @@ a {
     height: 128px;
     margin: 16px;
   }
+}
+
+.title {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 32px;
+  color: #ffffff;
+  margin-left: 72px;
+  margin-top: -$title-offset;
+}
+
+.section-title {
+  padding: 32px;
 }
 
 .section {

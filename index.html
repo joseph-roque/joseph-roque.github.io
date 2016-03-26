@@ -32,10 +32,34 @@ title: Joseph Roque | Developer
   </svg>
   <!-- End top divider -->
 
-  <div class='section'>
-    <h1>Past &amp; Current Projects</h1>
+  <h1 class='title'>Past &amp; Current Projects</h1>
 
+  <div class='section'>
+    <h2 class='section-title'>My Favourite Projects</h2>
     {% for project in site.data.projects_favourites %}
+      <div class='project'>
+        <img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' />
+        <div class='body'>
+          <h2>{{ project.name }}</h2>
+          <h6>{{ project.tags }}</h6>
+          <p>{{ project.description }}</p>
+          <div class='links'>
+            {% for link in project.links %}
+              <div class='link'>
+                <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
+                <p><a href='{{ link.url }}'>{{ link.name }}</a></p>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+      {% if forloop.last == false %}
+        <hr />
+      {% endif %}
+    {% endfor %}
+
+    <h2 class='section-title'>Graphic Design &amp; Animation</h2>
+    {% for project in site.data.projects_design %}
       <div class='project'>
         <img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' />
         <div class='body'>
