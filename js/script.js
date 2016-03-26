@@ -15,8 +15,6 @@ var distanceOffscreen = function(element) {
   elementTop = element.offset().top + elementSizePadding;
   elementBottom = elementTop + element.height() - elementSizePadding * 2;
 
-  console.log(elementBottom);
-
   if (elementTop <= screenBottom && elementBottom >= screenTop) {
     return 0;
   } else if (elementTop > screenBottom) {
@@ -48,9 +46,6 @@ var hasScrolled = function(skipScrollCheck) {
       var size = (-distance + sectionOffscreenThreshold) / sectionOffscreenThreshold * 16;
       indicator.css('width', size + 'px');
       indicator.css('height', size + 'px');
-      if (elem == 0) {
-        console.log(size);
-      }
     } else {
       indicator.css('width', '0');
       indicator.css('height', '0');
