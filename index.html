@@ -16,7 +16,7 @@ loadjs: true
   <!-- End top divider -->
 
   <div class='center-vertical section'>
-    <h1>Hi there,<br />My name's Joseph Roque.<br />I'm a 3rd year student at uOttawa with a love for mobile development.</h1>
+    <h1>Hello, my name's Joseph Roque. I'm a 3rd year student at uOttawa with a love for mobile development.</h1>
   </div>
 
   <!-- Bottom divider -->
@@ -54,8 +54,8 @@ loadjs: true
           </div>
         </div>
       </div>
-      {% if forloop.last == false and project.no_image == nil %}
-        <hr />
+      {% if forloop.last == false %}
+        <hr class='{% if project.no_image %}no-image{% endif %}' />
       {% endif %}
     {% endfor %}
 
@@ -77,8 +77,8 @@ loadjs: true
           </div>
         </div>
       </div>
-      {% if forloop.last == false and project.no_image == nil %}
-        <hr />
+      {% if forloop.last == false %}
+        <hr class='{% if project.no_image %}no-image{% endif %}' />
       {% endif %}
     {% endfor %}
 
@@ -100,8 +100,8 @@ loadjs: true
           </div>
         </div>
       </div>
-      {% if forloop.last == false and project.no_image == nil %}
-        <hr />
+      {% if forloop.last == false %}
+        <hr class='{% if project.no_image %}no-image{% endif %}' />
       {% endif %}
     {% endfor %}
   </div>
