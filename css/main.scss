@@ -4,6 +4,7 @@
 
 $sidebar-width: 250px;
 $title-offset: 100px;
+$header-height: 72px;
 
 /*
  * Available font families:
@@ -388,9 +389,43 @@ svg.red {
   height: 0;
 }
 
+// Header
+
+header {
+  display: none;
+}
+
+.shadow {
+  display: none;
+}
+
 // Mobile
 
 @media screen and (max-width: 1080px) {
+  header {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: $header-height;
+    background-color: #fff;
+    z-index: 999;
+
+    .nav-profile-img {
+      margin:4px 0 0 4px;
+      float:left;
+    }
+  }
+
+  .shadow {
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 4px;
+    padding-top: 72px;
+    background: #c0c0c0;
+    z-index: 998;
+  }
+
   .sidebar {
     display: none;
   }
@@ -398,13 +433,23 @@ svg.red {
   .content {
     padding-left: 0;
     padding-top: $header-height;
-  } 
+  }
+
+  .divider {
+    height: 100px;
+  }
 
   .title {
     margin-top: calc(20px - #{$title-offset})
   }
 
+  #about {
+    min-height: calc(100vh - #{$header-height});
+  }
+
   #contact {
+    min-height: calc(100vh - #{$header-height});
+
     .icons {
       width: 100%;
       -webkit-flex-wrap: wrap;
