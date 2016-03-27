@@ -16,7 +16,7 @@ loadjs: true
   <!-- End top divider -->
 
   <div class='center-vertical section'>
-    <h1>Hi there,<br />My name's Joseph Roque.<br />I'm a 3rd year student at uOttawa<br />with a love for mobile development.</h1>
+    <h1>Hi there,<br />My name's Joseph Roque.<br />I'm a 3rd year student at uOttawa with a love for mobile development.</h1>
   </div>
 
   <!-- Bottom divider -->
@@ -38,12 +38,12 @@ loadjs: true
   <div class='section'>
     <h2 class='section-title'>My Favourite Projects</h2>
     {% for project in site.data.projects_favourites %}
-      <div class='project'>
+      <div class='project {% if project.no_image %}no-image{% endif %}'>
         <a href='{{ project.links.first.url }}'><img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' /></a>
         <div class='body'>
           <h2><a href='{{ project.links.first.url }}'>{{ project.name }}</a></h2>
           <h6>{{ project.tags }}</h6>
-          <p>{{ project.description }}</p>
+          <p class='description'>{{ project.description }}</p>
           <div class='links'>
             {% for link in project.links %}
               <div class='link'>
@@ -54,19 +54,19 @@ loadjs: true
           </div>
         </div>
       </div>
-      {% if forloop.last == false %}
+      {% if forloop.last == false and project.no_image == nil %}
         <hr />
       {% endif %}
     {% endfor %}
 
     <h2 class='section-title'>Graphic Design &amp; Animation</h2>
     {% for project in site.data.projects_design %}
-      <div class='project'>
+      <div class='project {% if project.no_image %}no-image{% endif %}'>
         <a href='{{ project.links.first.url }}'><img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' /></a>
         <div class='body'>
           <h2><a href='{{ project.links.first.url }}'>{{ project.name }}</a></h2>
           <h6>{{ project.tags }}</h6>
-          <p>{{ project.description }}</p>
+          <p class='description'>{{ project.description }}</p>
           <div class='links'>
             {% for link in project.links %}
               <div class='link'>
@@ -77,19 +77,19 @@ loadjs: true
           </div>
         </div>
       </div>
-      {% if forloop.last == false %}
+      {% if forloop.last == false and project.no_image == nil %}
         <hr />
       {% endif %}
     {% endfor %}
 
     <h2 class='section-title'>Other Projects</h2>
     {% for project in site.data.projects_other %}
-      <div class='project'>
+      <div class='project {% if project.no_image %}no-image{% endif %}'>
         <a href='{{ project.links.first.url }}'><img src='{{ project.image }}' alt='{{ project.name }}' class='project-img' /></a>
         <div class='body'>
           <h2><a href='{{ project.links.first.url }}'>{{ project.name }}</a></h2>
           <h6>{{ project.tags }}</h6>
-          <p>{{ project.description }}</p>
+          <p class='description'>{{ project.description }}</p>
           <div class='links'>
             {% for link in project.links %}
               <div class='link'>
@@ -100,7 +100,7 @@ loadjs: true
           </div>
         </div>
       </div>
-      {% if forloop.last == false %}
+      {% if forloop.last == false and project.no_image == nil %}
         <hr />
       {% endif %}
     {% endfor %}

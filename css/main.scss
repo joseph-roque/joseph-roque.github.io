@@ -108,6 +108,10 @@ a {
 #about {
   min-height: 100vh;
   position: relative;
+
+  .section {
+    max-width: 600px;
+  }
 }
 
 #projects {
@@ -125,6 +129,7 @@ a {
     display: table-cell;
     vertical-align: top;
     padding-left: 16px;
+    padding-right: 16px;
     width: 600px;
 
     h6 {
@@ -197,13 +202,14 @@ a {
       margin-top: 4px;
       font-family: 'Droid Sans', sans-serif;
       font-size: 16px;
+      padding-right: 16px;
     }
   }
 
   .work {
     clear: both;
     margin-bottom: 16px;
-    width: 700px;
+    max-width: 700px;
   }
 
   .section {
@@ -413,6 +419,40 @@ svg.red {
     margin-top: calc(-10px - #{$title-offset});
     font-size: 28px;
   }
+
+  .section {
+    margin-left: 8px;
+  }
+
+  .section-title {
+    padding-left: 0;
+  }
+
+  #about {
+    h1 {
+      font-size: 24px;
+    }
+
+    .section {
+      margin-right: 8px;
+    }
+  }
+
+  #projects {
+    hr {
+      width: calc(100% - 116px);
+    }
+
+    .no-image {
+      display: none;
+    }
+  }
+
+  #work {
+    hr {
+      width: 100%;
+    }
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -421,6 +461,14 @@ svg.red {
       width: 48px;
       height: 48px;
       margin: 8px;
+    }
+  }
+
+  #projects {
+    .body {
+      .description {
+        display: none;
+      }
     }
   }
 }

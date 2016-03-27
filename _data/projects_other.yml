@@ -48,6 +48,7 @@
   description: A <strong>Pebble</strong> app built in <strong>C</strong> and <strong>JavaScript</strong> to accompany 5 Pin Bowling Companion for Android. Allows users to input their bowling statistics from their Pebble watch.
   tags: C, JavaScript, Pebble
   image: /assets/projects/white_pixel.png
+  no_image: true
   time: July 2015 - Present
   links:
     - name: GitHub // bowling-companion-pebble
@@ -58,6 +59,7 @@
   description: A <strong>RESTful API</strong> to facilitate transferring of one's 5 Pin Bowling Companion data to a new device. The API handles uploading, storing the data for up to 1 hour, and letting the user download their data again later.
   tags: Node.js, JavaScript
   image: /assets/projects/white_pixel.png
+  no_image: true
   time: March 2016
   links:
     - name: GitHub // bowling-companion-transfer
@@ -68,6 +70,7 @@
   description: WriteBrite is a web app which creates a collaborative writing space. Users join a room with other users and one user is selected to go first. That user gets 30 seconds to write the first lines of the story. When their turn ends, a second user is randomly selected and their 30 second turn begins, where they must continue the story started by the first user. This continues until all users feel the story is complete!
   tags: Node.js, Socket.io, JavaScript, HTML/CSS
   image: /assets/projects/white_pixel.png
+  no_image: true
   time: November 2015
   links:
     - name: GitHub // writebrite
@@ -78,6 +81,7 @@
   description: A basic mobile game created using <strong>libGDX</strong>. Swipe the ball through the wall with the matching color.
   tags: Java, libGDX, Android, iOS
   image: /assets/projects/white_pixel.png
+  no_image: true
   time: August 2015 - October 2015
   links:
     - name: GitHub // swip
