@@ -6,12 +6,12 @@ var elementsToCheck = ['#about', '#projects', '#work', '#contact'];
 var elementSizePadding = 400;
 
 // Returns a distance in pixels of the element from the screen. Value is always greater than or equal to 0
-var distanceOffscreen = function(element) {
-  screenTop = $(window).scrollTop();
-  screenBottom = screenTop + $(window).height();
+var distanceOffscreen = function(element, sp) {
+  var screenTop = $(window).scrollTop();
+  var screenBottom = screenTop + $(window).height();
 
-  elementTop = element.offset().top + elementSizePadding;
-  elementBottom = elementTop + element.height() - elementSizePadding * 2;
+  var elementTop = element.offset().top + elementSizePadding;
+  var elementBottom = elementTop + element.height() - elementSizePadding * 2;
 
   if (elementTop <= screenBottom && elementBottom >= screenTop) {
     return 0;
@@ -35,7 +35,7 @@ var hasScrolled = function(skipScrollCheck) {
   for (elem in elementsToCheck) {
     var element = $(elementsToCheck[elem]);
     var indicator = $(elementsToCheck[elem] + '-indicator');
-    var distance = distanceOffscreen(element);
+    var distance = distanceOffscreen(element, elem == 1);
 
     if (distance == 0) {
       indicator.css('width', '16px');
