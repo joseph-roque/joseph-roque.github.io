@@ -404,6 +404,32 @@ header {
   display: none;
 }
 
+// Footer
+
+footer {
+  font-size: 12pt;
+  color: #fff;
+  margin-top: -32px;
+  padding: 32px;
+  text-align: center;
+  p {
+    padding: 0;
+    margin: 0 0 0 -$sidebar-width;
+  }
+}
+
+.blue-footer {
+  footer {
+    background-color: #3FA9F5;
+  }
+}
+
+.red-footer {
+  footer {
+    background-color: #D4145A;
+  }
+}
+
 // Mobile
 
 @media screen and (max-width: 1080px) {
