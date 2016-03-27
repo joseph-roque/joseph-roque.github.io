@@ -384,4 +384,37 @@ svg.red {
   .content {
     padding-left: 0;
   }
+
+  #contact {
+    .icons {
+      width: 100%;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    img {
+      width: 64px;
+      height: 64px;
+      margin: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+
+  .content {
+    padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #contact {
+    img {
+      width: 48px;
+      height: 48px;
+      margin: 8px;
+    }
+  }
 }
