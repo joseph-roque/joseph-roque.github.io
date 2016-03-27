@@ -282,6 +282,10 @@ svg.gray {
   fill: #EBEBEB;
 }
 
+svg.dark-gray {
+  fill: #505050;
+}
+
 svg.blue {
   fill: #3FA9F5;
 }
@@ -415,6 +419,35 @@ header {
       margin:4px 0 0 4px;
       float:left;
     }
+
+    ul {
+      margin: 0;
+    }
+
+    .nav {
+      padding-left: 0;
+      list-style: none;
+
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+
+      -webkit-flex-direction: row;
+      flex-direction: row;
+      -webkit-flex-wrap: wrap;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+
+      li {
+        padding: 16px;
+      }
+
+      svg {
+        height: 40px;
+        width: 40px;
+      }
+    }
   }
 
   .shadow {
@@ -514,6 +547,15 @@ header {
 }
 
 @media screen and (max-width: 400px) {
+  header {
+    .nav {
+      li {
+        padding-left: 4px;
+        padding-right: 4px;
+      }
+    }
+  }
+
   #designs {
     img {
       height: auto;
