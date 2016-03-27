@@ -33,7 +33,7 @@ loadjs: true
   </svg>
   <!-- End top divider -->
 
-  <h1 class='title'>Past &amp; Current Projects</h1>
+  <h1 class='title'>Personal Projects</h1>
 
   <div class='section'>
     <h2 class='section-title'>My Favourite Projects</h2>
@@ -47,8 +47,10 @@ loadjs: true
           <div class='links'>
             {% for link in project.links %}
               <div class='link'>
-                <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
-                <p><a href='{{ link.url }}'>{{ link.name }}</a></p>
+                <a href='{{ link.url }}'>
+                  <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
+                  <p class='ellipses'><a href='{{ link.url }}'>{{ link.name }}</p>
+                </a>
               </div>
             {% endfor %}
           </div>
@@ -70,8 +72,10 @@ loadjs: true
           <div class='links'>
             {% for link in project.links %}
               <div class='link'>
-                <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
-                <p><a href='{{ link.url }}'>{{ link.name }}</a></p>
+                <a href='{{ link.url }}'>
+                  <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
+                  <p class='ellipses'>{{ link.name }}</p>
+                </a>
               </div>
             {% endfor %}
           </div>
@@ -93,8 +97,10 @@ loadjs: true
           <div class='links'>
             {% for link in project.links %}
               <div class='link'>
-                <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
-                <p><a href='{{ link.url }}'>{{ link.name }}</a></p>
+                <a href='{{ link.url }}'>
+                  <img src='{{ link.image }}' alt='{{ link.name }}' class='link-img' />
+                  <p class='ellipses'>{{ link.name }}</p>
+                </a>
               </div>
             {% endfor %}
           </div>
