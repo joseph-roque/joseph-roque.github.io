@@ -7,10 +7,8 @@ var elementSizePadding = 400;
 
 // Returns a distance in pixels of the element from the screen. Value is always greater than or equal to 0
 var distanceOffscreen = function(element) {
-  screen = $(window);
-
-  screenTop = screen.scrollTop();
-  screenBottom = screenTop + screen.height();
+  screenTop = $(window).scrollTop();
+  screenBottom = screenTop + $(window).height();
 
   elementTop = element.offset().top + elementSizePadding;
   elementBottom = elementTop + element.height() - elementSizePadding * 2;
