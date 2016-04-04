@@ -592,12 +592,16 @@ footer {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 440px) {
   header {
     .nav {
       li {
-        padding-left: 4px;
-        padding-right: 4px;
+        padding: 20px 4px 20px 4px;
+      }
+
+      svg {
+        height: 32px;
+        width: 32px;
       }
     }
   }
