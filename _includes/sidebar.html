@@ -6,6 +6,7 @@
     <div class='nav'>
       <ul class='nav-list'>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#about'>About</a></li>
+        <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#skills'>Skills</a></li>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#projects'>Projects</a></li>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#work'>Work</a></li>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#contact'>Contact</a></li>
@@ -15,6 +16,12 @@
           <a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#about'>
             <img src='{{ base }}/assets/indicator_outline.svg' class='indicator' alt='About indicator' />
             <img id='about-indicator' src='{{ base }}/assets/indicator.svg' class='indicator-filled' alt='indicator' />
+          </a>
+        </li>
+        <li>
+          <a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#skills'>
+            <img src='{{ base }}/assets/indicator_outline.svg' class='indicator' alt='Skills indicator' />
+            <img id='skills-indicator' src='{{ base }}/assets/indicator.svg' class='indicator-filled' alt='indicator' />
           </a>
         </li>
         <li>

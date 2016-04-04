@@ -122,6 +122,16 @@ a {
   }
 }
 
+#skills {
+  min-height: 100vh;
+  position: relative;
+
+  .section {
+    padding-bottom: 140px;
+    padding-top: calc(#{$title-offset} - 40px);
+  }
+}
+
 #projects {
   min-height: 100vh;
   position: relative;
@@ -296,6 +306,10 @@ svg.orange {
 
 svg.red {
   fill: #D4145A;
+}
+
+svg.green {
+  fill: #4CAF50;
 }
 
 // Sidebar properties
