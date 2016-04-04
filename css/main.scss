@@ -126,6 +126,48 @@ a {
   min-height: 100vh;
   position: relative;
 
+  a {
+    text-decoration: underline;
+  }
+
+  .end-of-section {
+    margin-bottom: 32px;
+  }
+
+  span.italic {
+    font-style: italic;
+  }
+
+  span.subtitle {
+    font-size: 18px;
+  }
+
+  .notes {
+    margin-top: 16px;
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-top: 4px;
+      font-family: 'Droid Sans', sans-serif;
+      font-size: 16px;
+      padding-right: 16px;
+
+      span {
+        position: relative;
+        left: -6px;
+      }
+    }
+  }
+
+  .skill-section {
+    clear: both;
+    margin-bottom: 16px;
+    max-width: 700px;
+  }
+
   .section {
     padding-bottom: 140px;
     padding-top: calc(#{$title-offset} - 40px);
