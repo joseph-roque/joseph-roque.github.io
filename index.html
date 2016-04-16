@@ -199,6 +199,24 @@ loadjs: true
         <hr />
       {% endif %}
     {% endfor %}
+
+    <h2 class='section-title'>Other Experience</h2>
+    {% for work in site.data.work_experience_other %}
+      <div class='work'>
+        <h2>{{ work.name }}, <span class='position'>{{ work.position }}</span></h2>
+        <h6>{{ work.time }}</h6>
+        <div class='tasks'>
+          <ul>
+            {% for task in work.tasks %}
+              <li>{{ task.point }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% if forloop.last == false %}
+        <hr />
+      {% endif %}
+    {% endfor %}
   </div>
 
   <!-- Bottom divider -->
