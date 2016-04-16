@@ -160,6 +160,20 @@ a {
         left: -6px;
       }
     }
+
+    a, a:hover, a:visited {
+      text-decoration: none;
+    }
+
+    img {
+      float: left;
+      margin-top: 2px;
+      margin-right: 8px;
+    }
+
+    .resume {
+      padding-left: 16px;
+    }
   }
 
   .skill-section {
