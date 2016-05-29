@@ -279,6 +279,20 @@ a {
     margin: 8px 0 0 0;
   }
 
+  .work-img {
+    display: table-cell;
+    width: 100px;
+    height: 100px;
+  }
+
+  .body {
+    display: table-cell;
+    vertical-align: top;
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 600px;
+  }
+
   .tasks {
     margin-top: 8px;
 
@@ -294,6 +308,7 @@ a {
     clear: both;
     margin-bottom: 16px;
     max-width: 700px;
+    display: table;
   }
 
   .section {

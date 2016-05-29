@@ -1,6 +1,7 @@
 - name: Microsoft
   position: Software Engineering Intern
   time: January 2016 - April 2016
+  image: /assets/work/microsoft.png
   tasks:
     - point: Participated in overhaul of the NFL app for Xbox One and Windows 10 for the 16/17 season
     - point: Responsible for improving user experience throughout the app by implementing variations of live, constantly updating tiles, and fixing bugs
@@ -9,6 +10,7 @@
 - name: ADGA
   position: Junior Developer
   time: May 2015 - August 2015
+  image: /assets/work/adga.png
   tasks:
     - point: Full responsibility for design and development of a new <strong>Android</strong> application
     - point: Shared responsibility of back end server development of a <strong>Node.js</strong> server

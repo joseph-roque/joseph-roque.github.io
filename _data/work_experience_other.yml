@@ -1,6 +1,7 @@
 - name: Huawei
   position: Seeds for the Future
   time: May 2016
+  image: /assets/work/huawei.png
   tasks:
     - point: Invited by Huawei Canada to their global headquarters in China as a representative of the University of Ottawa for the 2016 Seeds for the Future program
-    - point: Will spend a week learning from their engineers in the telecommunications industry, and a week learning Mandarin and experiencing the culture of China
+    - point: We spent a week in Beijing experiencing the language and culture of China, followed by a week in Shenzhen, participating in number of technical labs and presentations lead by the engineers of Huawei

@@ -194,14 +194,17 @@ loadjs: true
     <h2 class='section-title'>Software Experience</h2>
     {% for work in site.data.work_experience_software %}
       <div class='work'>
-        <h2>{{ work.name }}, <span class='position'>{{ work.position }}</span></h2>
-        <h6>{{ work.time }}</h6>
-        <div class='tasks'>
-          <ul>
-            {% for task in work.tasks %}
-              <li>{{ task.point }}</li>
-            {% endfor %}
-          </ul>
+        <img src='{{ work.image }}' alt='{{ work.name }}' class='work-img' />
+        <div class='body'>
+          <h2>{{ work.name }}, <span class='position'>{{ work.position }}</span></h2>
+          <h6>{{ work.time }}</h6>
+          <div class='tasks'>
+            <ul>
+              {% for task in work.tasks %}
+                <li>{{ task.point }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
       {% if forloop.last == false %}
@@ -212,14 +215,17 @@ loadjs: true
     <h2 class='section-title'>Other Experience</h2>
     {% for work in site.data.work_experience_other %}
       <div class='work'>
-        <h2>{{ work.name }}, <span class='position'>{{ work.position }}</span></h2>
-        <h6>{{ work.time }}</h6>
-        <div class='tasks'>
-          <ul>
-            {% for task in work.tasks %}
-              <li>{{ task.point }}</li>
-            {% endfor %}
-          </ul>
+        <img src='{{ work.image }}' alt='{{ work.name }}' class='work-img' />
+        <div class='body'>
+          <h2>{{ work.name }}, <span class='position'>{{ work.position }}</span></h2>
+          <h6>{{ work.time }}</h6>
+          <div class='tasks'>
+            <ul>
+              {% for task in work.tasks %}
+                <li>{{ task.point }}</li>
+              {% endfor %}
+            </ul>
+          </div>
         </div>
       </div>
       {% if forloop.last == false %}
