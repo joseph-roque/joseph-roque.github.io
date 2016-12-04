@@ -7,8 +7,8 @@
       <ul class='nav-list'>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#about'>About</a></li>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#skills'>Highlights</a></li>
-        <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#projects'>Projects</a></li>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#work'>Work</a></li>
+        <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#projects'>Projects</a></li>
         <li><a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#contact'>Contact</a></li>
       </ul>
       <ul class='nav-indicators'>
@@ -25,15 +25,15 @@
           </a>
         </li>
         <li>
-          <a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#projects'>
-            <img src='{{ base }}/assets/indicator_outline.svg' class='indicator' alt='Project indicator' />
-            <img id='projects-indicator' src='{{ base }}/assets/indicator.svg' class='indicator-filled' alt='indicator' />
-          </a>
-        </li>
-        <li>
           <a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#work'>
             <img src='{{ base }}/assets/indicator_outline.svg' class='indicator' alt='Work indicator' />
             <img id='work-indicator' src='{{ base }}/assets/indicator.svg' class='indicator-filled' alt='indicator' />
+          </a>
+        </li>
+        <li>
+          <a href='{% if page.sidebar_links %}{{ page.sidebar_links }}{% endif %}#projects'>
+            <img src='{{ base }}/assets/indicator_outline.svg' class='indicator' alt='Project indicator' />
+            <img id='projects-indicator' src='{{ base }}/assets/indicator.svg' class='indicator-filled' alt='indicator' />
           </a>
         </li>
         <li>

@@ -2,8 +2,8 @@ var didScroll = false;
 var sectionOffscreenThreshold = 150;
 var scrollThreshold = 5;
 var lastScrollTop = 0;
-var elementsToCheck = ['#about', '#skills', '#projects', '#work', '#contact'];
-var navColors = ['dark-gray', 'blue', 'green', 'orange', 'red'];
+var elementsToCheck = ['#about', '#skills', '#work', '#projects', '#contact'];
+var navColors = ['dark-gray', 'blue', 'orange', 'green', 'red'];
 var elementSizePadding = 400;
 var headerHeight = 72;
 
