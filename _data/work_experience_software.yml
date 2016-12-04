@@ -1,3 +1,12 @@
+- name: Shopify
+  position: Software Developer Intern
+  time: September 2016 - December 2016
+  image: /assets/work/shopify.png
+  tasks:
+    - point: Contributing to development of the iOS app for Shopify
+    - point: Working on product polish and general UI updates, using <strong>Xcode</strong>, <strong>Swift</strong>, and <strong>GraphQL</strong>
+    - point: Writing <strong>unit</strong> and <strong>snapshot</strong> tests for code that I produce
+
 - name: Microsoft
   position: Software Engineering Intern
   time: January 2016 - April 2016
