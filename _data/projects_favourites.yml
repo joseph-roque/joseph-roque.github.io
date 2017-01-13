@@ -8,7 +8,7 @@
       url: http://bowlingcompanion.ca
       image: /assets/links/link.svg
     - name: GitHub // bowling-companion
-      url: https://github.com/joseph-roque/bowling-companion
+      url: https://github.com/josephroque/bowling-companion
       image: /assets/links/github.svg
 
 - name: The Broken Quill Society
@@ -21,7 +21,7 @@
       url: http://thebrokenquillsociety.com
       image: /assets/links/link.svg
     - name: GitHub // thebrokenquillsociety
-      url: https://github.com/joseph-roque/thebrokenquillsociety
+      url: https://github.com/josephroque/thebrokenquillsociety
       image: /assets/links/github.svg
 
 - name: University of Ottawa Campus Guide
@@ -31,10 +31,10 @@
   time: January 2016 - Present
   links:
     - name: GiHub // campus-guide
-      url: https://github.com/joseph-roque/campus-guide
+      url: https://github.com/josephroque/campus-guide
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-server
-      url: https://github.com/joseph-roque/campus-guide-server
+      url: https://github.com/josephroque/campus-guide-server
       image: /assets/links/github.svg
 
 - name: Lead the Bunny / Ludum Dare
@@ -44,7 +44,7 @@
   time: August 2013
   links:
     - name: GitHub // lead-the-bunny
-      url: https://github.com/joseph-roque/lead-the-bunny
+      url: https://github.com/josephroque/lead-the-bunny
       image: /assets/links/github.svg
 
 - name: gitpizza / nwHacks

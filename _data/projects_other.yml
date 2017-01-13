@@ -8,7 +8,7 @@
       url: http://sizzl.me
       image: /assets/links/link.svg
     - name: GitHub // CSI2132-Restaurants
-      url: https://github.com/joseph-roque/CSI2132-Restaurants
+      url: https://github.com/josephroque/CSI2132-Restaurants
       image: /assets/links/github.svg
 
 - name: 12 Days of Beardmas
@@ -28,7 +28,7 @@
   time: August 2015
   links:
     - name: GitHub // tip-calc
-      url: https://github.com/joseph-roque/tip-calc
+      url: https://github.com/josephroque/tip-calc
       image: /assets/links/github.svg
 
 - name: Distant Pairs
@@ -38,10 +38,10 @@
   time: May 2015 - August 2015
   links:
     - name: GitHub // distant-pairs-android
-      url: https://github.com/joseph-roque/distant-pairs-android
+      url: https://github.com/josephroque/distant-pairs-android
       image: /assets/links/github.svg
     - name: GitHub // distant-pairs-ios
-      url: https://github.com/joseph-roque/distant-pairs-ios
+      url: https://github.com/josephroque/distant-pairs-ios
       image: /assets/links/github.svg
 
 - name: Bowling Companion for Pebble
@@ -52,7 +52,7 @@
   time: July 2015 - Present
   links:
     - name: GitHub // bowling-companion-pebble
-      url: https://github.com/joseph-roque/bowling-companion-pebble
+      url: https://github.com/josephroque/bowling-companion-pebble
       image: /assets/links/github.svg
 
 - name: Bowling Companion Transfer
@@ -63,7 +63,7 @@
   time: March 2016
   links:
     - name: GitHub // bowling-companion-transfer
-      url: https://github.com/joseph-roque/bowling-companion-transfer
+      url: https://github.com/josephroque/bowling-companion-transfer
       image: /assets/links/github.svg
 
 - name: WriteBrite / HackHarvard
@@ -74,7 +74,7 @@
   time: November 2015
   links:
     - name: GitHub // writebrite
-      url: https://github.com/joseph-roque/writebrite
+      url: https://github.com/josephroque/writebrite
       image: /assets/links/github.svg
 
 - name: Swip
@@ -85,5 +85,5 @@
   time: August 2015 - October 2015
   links:
     - name: GitHub // swip
-      url: https://github.com/joseph-roque/swip
+      url: https://github.com/josephroque/swip
       image: /assets/links/github.svg
