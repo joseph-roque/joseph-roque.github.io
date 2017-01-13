@@ -4,8 +4,9 @@
   image: /assets/work/shopify.png
   tasks:
     - point: Contributing to development of the iOS app for Shopify
+    - point: Working closely with multiple teams to bring new features from sections of the web app to the mobile app
     - point: Working on product polish and general UI updates, using <strong>Xcode</strong>, <strong>Swift</strong>, and <strong>GraphQL</strong>
-    - point: Writing <strong>unit</strong> and <strong>snapshot</strong> tests for code that I produce
+    - point: Writing <strong>unit</strong> and <strong>snapshot</strong> tests for code I produce
 
 - name: Microsoft
   position: Software Engineering Intern
@@ -17,7 +18,7 @@
     - point: Worked with <strong>Lua</strong>, <strong>C#</strong>, and <strong>XAML</strong>, with peer review for each commit, build reviews, and daily scrums
 
 - name: ADGA
-  position: Junior Developer
+  position: Software Engineering Intern
   time: May 2015 - August 2015
   image: /assets/work/adga.png
   tasks:

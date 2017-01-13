@@ -24,6 +24,19 @@
       url: https://github.com/joseph-roque/thebrokenquillsociety
       image: /assets/links/github.svg
 
+- name: University of Ottawa Campus Guide
+  description: Currently developing an app using <strong>React Native</strong> and <strong>Express</strong> for students at the University of Ottawa. The app will provide students with directions directly to any class on campus, information on events being hosted by the university, and details on nearby bus arrival and departure times.
+  tags: React Native, Express
+  image: /assets/projects/campusguide.png
+  time: January 2016 - Present
+  links:
+    - name: GiHub // campus-guide
+      url: https://github.com/joseph-roque/campus-guide
+      image: /assets/links/github.svg
+    - name: GiHub // campus-guide-server
+      url: https://github.com/joseph-roque/campus-guide-server
+      image: /assets/links/github.svg
+
 - name: Lead the Bunny / Ludum Dare
   description: A <strong>2D Java</strong> game made for Ludum Dare 26. The theme of minimalism led to the decision to only have one control - leading the bunny with your mouse.
   tags: Java, Ludum Dare, 2D Game
