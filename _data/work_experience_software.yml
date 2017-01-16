@@ -9,7 +9,7 @@
     - point: Writing <strong>unit</strong> and <strong>snapshot</strong> tests for code I produce
 
 - name: Microsoft
-  position: Software Engineering Intern
+  position: Software Engineer Intern
   time: January 2016 - April 2016
   image: /assets/work/microsoft.png
   tasks:
@@ -18,7 +18,7 @@
     - point: Worked with <strong>Lua</strong>, <strong>C#</strong>, and <strong>XAML</strong>, with peer review for each commit, build reviews, and daily scrums
 
 - name: ADGA
-  position: Software Engineering Intern
+  position: Software Engineer Intern
   time: May 2015 - August 2015
   image: /assets/work/adga.png
   tasks:
