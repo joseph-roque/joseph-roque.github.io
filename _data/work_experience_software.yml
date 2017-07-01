@@ -1,5 +1,14 @@
+- name: Box
+  position: Desktop Developer Intern
+  time: May 2017 - August 2017
+  image: /assets/work/box.png
+  tasks:
+    - point: Implementing a new, core feature for the recently released Box Drive desktop application
+    - point: Writing technical and design documents to supplement development process
+    - point: Working with <strong>Python</strong, <strong>Swift>/strong>, and <strong>C#</strong>
+
 - name: Shopify
-  position: Software Developer Intern
+  position: iOS Developer Intern
   time: September 2016 - December 2016
   image: /assets/work/shopify.png
   tasks:
@@ -9,7 +18,7 @@
     - point: Writing <strong>unit</strong> and <strong>snapshot</strong> tests for code I produce
 
 - name: Microsoft
-  position: Software Engineering Intern
+  position: Software Developer Intern
   time: January 2016 - April 2016
   image: /assets/work/microsoft.png
   tasks:
@@ -18,7 +27,7 @@
     - point: Worked with <strong>Lua</strong>, <strong>C#</strong>, and <strong>XAML</strong>, with peer review for each commit, build reviews, and daily scrums
 
 - name: ADGA
-  position: Software Engineering Intern
+  position: Android Developer Intern
   time: May 2015 - August 2015
   image: /assets/work/adga.png
   tasks:
