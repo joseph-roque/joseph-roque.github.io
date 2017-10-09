@@ -25,8 +25,8 @@
       image: /assets/links/github.svg
 
 - name: University of Ottawa Campus Guide
-  description: Currently developing an app using <strong>React Native</strong> and <strong>Express</strong> for students at the University of Ottawa. The app will provide students with directions directly to any class on campus, information on events being hosted by the university, and details on nearby bus arrival and departure times.
-  tags: React Native, Express
+  description: Currently developing an app using <strong>React Native</strong> for students at the University of Ottawa. The app will provide students with directions directly to any class on campus, information on events being hosted by the university, and details on nearby bus arrival and departure times.
+  tags: React Native
   image: /assets/projects/campusguide.png
   time: January 2016 - Present
   links:
@@ -35,6 +35,12 @@
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-server
       url: https://github.com/josephroque/campus-guide-server
+      image: /assets/links/github.svg
+    - name: GiHub // campus-guide-graph-generator
+      url: https://github.com/josephroque/campus-guide-graph-generator
+      image: /assets/links/github.svg
+    - name: GiHub // campus-guide-showcase
+      url: https://github.com/josephroque/campus-guide-graph-showcase
       image: /assets/links/github.svg
 
 - name: Lead the Bunny / Ludum Dare
