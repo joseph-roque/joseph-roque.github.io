@@ -44,6 +44,9 @@ a {
   height: 100%;
   padding-left: $sidebar-width;
   font-size: 0;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  position: fixed;
 }
 
 .section-title {
