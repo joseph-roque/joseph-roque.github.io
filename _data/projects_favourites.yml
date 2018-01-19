@@ -11,22 +11,9 @@
       url: https://github.com/josephroque/bowling-companion
       image: /assets/links/github.svg
 
-- name: The Broken Quill Society
-  description: Designed and developed a <strong>Ruby on Rails</strong> app for the University of Ottawa Creative Writing Club for members to share their personal works and offer feedback on each other's writing. I am currently acting as webmaster of the club, managing the site through <strong>Amazon EC2</strong>.
-  tags: Ruby on Rails, HTML/CSS
-  image: /assets/projects/brokenquillsociety.png
-  time: October 2015 - Present
-  links:
-    - name: thebrokenquillsociety.com
-      url: http://thebrokenquillsociety.com
-      image: /assets/links/link.svg
-    - name: GitHub // thebrokenquillsociety
-      url: https://github.com/josephroque/thebrokenquillsociety
-      image: /assets/links/github.svg
-
 - name: University of Ottawa Campus Guide
-  description: Currently developing an app using <strong>React Native</strong> for students at the University of Ottawa. The app will provide students with directions directly to any class on campus, information on events being hosted by the university, and details on nearby bus arrival and departure times.
-  tags: React Native
+  description: Designed and developed an app using <strong>React Native</strong> for students at the University of Ottawa. The app provides students with directions directly to any class on campus, information on events being hosted by the university, and details on nearby bus arrival and departure times.
+  tags: React Native, Redux
   image: /assets/projects/campusguide.png
   time: January 2016 - Present
   links:
@@ -41,6 +28,19 @@
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-showcase
       url: https://github.com/josephroque/campus-guide-graph-showcase
+      image: /assets/links/github.svg
+
+- name: The Broken Quill Society
+  description: Designed and developed a <strong>Ruby on Rails</strong> app for the University of Ottawa Creative Writing Club for members to share their personal works and offer feedback on each other's writing. I am currently acting as webmaster of the club, managing the site through <strong>Amazon EC2</strong>.
+  tags: Ruby on Rails, HTML/CSS
+  image: /assets/projects/brokenquillsociety.png
+  time: October 2015 - Present
+  links:
+    - name: thebrokenquillsociety.com
+      url: http://thebrokenquillsociety.com
+      image: /assets/links/link.svg
+    - name: GitHub // thebrokenquillsociety
+      url: https://github.com/josephroque/thebrokenquillsociety
       image: /assets/links/github.svg
 
 - name: Lead the Bunny / Ludum Dare
