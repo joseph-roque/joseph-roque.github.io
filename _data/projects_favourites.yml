@@ -20,8 +20,8 @@
     - name: GiHub // campus-guide
       url: https://github.com/josephroque/campus-guide
       image: /assets/links/github.svg
-    - name: GiHub // campus-guide-server
-      url: https://github.com/josephroque/campus-guide-server
+    - name: GiHub // campus-guide-backend
+      url: https://github.com/josephroque/campus-guide-backend
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-graph-generator
       url: https://github.com/josephroque/campus-guide-graph-generator
