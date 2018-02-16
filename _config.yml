@@ -6,8 +6,9 @@ description: > # this means to ignore newlines until "baseurl:"
   pursuing an Honours B.Sc. with a Specialization in Computer Science.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://josephroque.ca" # the base hostname & protocol for your site
-twitter_username: coruon
-github_username:  josephroque
+twitter_username: josephroqueca
+github_username:  josephroqueca
+medium_username: josephroqueca
 
 # Build settings
 markdown: kramdown
