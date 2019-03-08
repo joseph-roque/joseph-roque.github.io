@@ -8,7 +8,7 @@
       url: http://bowlingcompanion.ca
       image: /assets/links/link.svg
     - name: GitHub // bowling-companion
-      url: https://github.com/josephroqueca/bowling-companion
+      url: https://github.com/josephroquedev/bowling-companion
       image: /assets/links/github.svg
 
 - name: University of Ottawa Campus Guide
@@ -18,19 +18,19 @@
   time: January 2016 - Present
   links:
     - name: GiHub // campus-guide
-      url: https://github.com/josephroqueca/campus-guide
+      url: https://github.com/josephroquedev/campus-guide
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-backend
-      url: https://github.com/josephroqueca/campus-guide-backend
+      url: https://github.com/josephroquedev/campus-guide-backend
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-ottawa
-      url: https://github.com/josephroqueca/campus-guide-ottawa
+      url: https://github.com/josephroquedev/campus-guide-ottawa
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-ottawa
-      url: https://github.com/josephroqueca/campus-guide-graph-generator
+      url: https://github.com/josephroquedev/campus-guide-graph-generator
       image: /assets/links/github.svg
     - name: GiHub // campus-guide-showcase
-      url: https://github.com/josephroqueca/campus-guide-graph-showcase
+      url: https://github.com/josephroquedev/campus-guide-graph-showcase
       image: /assets/links/github.svg
 
 - name: The Broken Quill Society
@@ -43,7 +43,7 @@
       url: http://thebrokenquillsociety.com
       image: /assets/links/link.svg
     - name: GitHub // thebrokenquillsociety
-      url: https://github.com/josephroqueca/thebrokenquillsociety
+      url: https://github.com/josephroquedev/thebrokenquillsociety
       image: /assets/links/github.svg
 
 - name: Lead the Bunny / Ludum Dare
@@ -53,7 +53,7 @@
   time: August 2013
   links:
     - name: GitHub // lead-the-bunny
-      url: https://github.com/josephroqueca/lead-the-bunny
+      url: https://github.com/josephroquedev/lead-the-bunny
       image: /assets/links/github.svg
 
 - name: gitpizza / nwHacks
