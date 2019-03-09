@@ -1,0 +1,12 @@
+- name: <span class="highlight">iOS Developed</span> @ Shopify
+  description: Working with the <span class="highlight">iOS Foundations</span> team to create highly reusable components for use in mobile apps throughout Shopify.
+  technologies: Swift, Kotlin, Ruby on Rails
+  image: assets/work/shopify.png
+- name: <span class="highlight">macOS Developer Intern</span> @ Box
+  description: Implemented a new, core feature for the <span class="highlight">Box Drive</span> desktop application, along with a full technical specification.
+  technologies: Swift, Python
+  image: assets/work/box.png
+- name: <span class="highlight">Developer Intern</span> @ Microsoft
+  description: Participated in an overhaul of the NFL <span class="highlight">Xbox</span> and <span class="highlight">Windows</span> apps. Focused on <span class="highlight">design and accessibility</span>.
+  technologies: Lua, C#
+  image: assets/work/microsoft.png

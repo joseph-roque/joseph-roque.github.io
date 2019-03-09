@@ -1,0 +1,8 @@
+- name: 5 Pin Bowling Companion
+  description: Developed the <span class="highlight">5 Pin Bowling Companion</span> app for bowlers who want to track their statistics and improve their scores.
+  technologies: Kotlin, MVVM, JUnit, NodeJS
+  image: assets/personal/5pinbowlingcompanion.svg
+- name: Campus Guide
+  description: Developed the <span class="highlight">Campus Guide</span> app to help new students at uOttawa orient themselves in the first weeks of school.
+  technologies: React Native, Python
+  image: assets/personal/campusguide.png

@@ -1,6 +1,3 @@
-josephroque
-===========
+![Header](.github/Header.png)
 
-My personal website and portfolio, see below
-
-[josephroque.ca](http://josephroque.ca)
+My personal website and portfolio, viewable at [josephroque.dev](https://josephroque.dev)
