@@ -8,3 +8,159 @@
  * font-family: "Quicksand", sans-serif;
  * font-family: "Droid Sans", sans-serif;
  */
+
+$primaryBackground: #222F3E;
+$primaryText: #8395A7;
+$highlightText: #FFFFFF;
+
+$spacingLarge: 32px;
+$spacingStandard: 16px;
+$spacingSmall: 8px;
+$spacingTiny: 4px;
+
+body {
+  color: $primaryText;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  background-color: $primaryBackground;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.highlight {
+  color: $highlightText;
+}
+
+.page-centred {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#me {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  img {
+    width: 256px;
+    height: 256px;
+  }
+
+  .description {
+    margin-left: $spacingLarge;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+    h3 {
+      margin-top: $spacingSmall;
+    }
+  }
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+
+  #highlights-personal {
+    justify-content: right;
+  }
+
+  #highlights-work {
+    align-items: right;
+  }
+
+  .section-highlights {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    margin-left: $spacingLarge;
+    margin-right: $spacingLarge;
+  }
+
+  .highlight-items {
+    margin-top: $spacingLarge;
+  }
+
+  .highlight-separator {
+    background-color: #8395A7;
+    width: 1px;
+  }
+
+  .highlight-header-right {
+    text-align: right;
+  }
+}
+
+#contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .contact-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      width: 100px;
+      height: 100px;
+      margin: $spacingLarge;
+    }
+  }
+}
+
+.item-highlight {
+  max-width: 40em;
+  margin: $spacingStandard;
+
+  .item-header {
+    display: inline;
+    img {
+      float: left;
+      width: 24px;
+      height: 24px;
+      margin-right: $spacingSmall;
+    }
+  }
+
+  .item-details {
+    display: flex;
+    align-items: center;
+    margin: $spacingStandard;
+
+    img {
+      // float: left;
+      width: 100px;
+      height: auto;
+      max-height: 100px;
+    }
+
+    .item-description {
+      margin: $spacingSmall;
+    }
+
+    p {
+      margin: $spacingSmall;
+    }
+  }
+}

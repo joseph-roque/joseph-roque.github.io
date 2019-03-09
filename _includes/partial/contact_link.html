@@ -1,0 +1,7 @@
+{% if include.item.javascript_url %}
+<a href="{{ include.item.url }}" target="_blank">
+{% else %}
+<a href="{{ include.item.url }}" target="_blank">
+{% endif %}
+  <img src="{{ include.item.image }}" alt="{{ include.item.alt }}" onmouseover="this.src='{{ include.item.image_highlighted }}'" onmouseout="this.src='{{ include.item.image }}'" />
+</a>

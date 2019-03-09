@@ -1,0 +1,16 @@
+- url: https://github.com/josephroquedev/
+  alt: GitHub
+  image: assets/contact/standard/github.svg
+  image_highlighted: assets/contact/highlighted/github.svg
+- url: https://twitter.com/josephroquedev/
+  alt: Twitter
+  image: assets/contact/standard/twitter.svg
+  image_highlighted: assets/contact/highlighted/twitter.svg
+- url: https://linkedin.com/in/josephroquedev/
+  alt: LinkedIn
+  image: assets/contact/standard/linkedin.svg
+  image_highlighted: assets/contact/highlighted/linkedin.svg
+- url: https://facebook.com/josephroquedev/
+  alt: Facebook
+  image: assets/contact/standard/facebook.svg
+  image_highlighted: assets/contact/highlighted/facebook.svg

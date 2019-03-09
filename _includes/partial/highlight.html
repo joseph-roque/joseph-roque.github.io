@@ -1,0 +1,15 @@
+<div class="item-highlight">
+  <div class="item-header">
+    <a href="{{ include.item.link }}" target="_blank">
+      <img src="/assets/link.svg" class="hyperlink" />
+      <h3>{{ include.item.name }}</h3>
+    </a>
+  </div>
+  <div class="item-details">
+    <img src="{{ include.item.image }}" alt="{{ include.item.alt }}" />
+    <div class="item-description">
+      <p>{{ include.item.description }}</p>
+      <p class="highlight">{{ include.item.technologies }}</p>
+    </div>
+  </div>
+</div>
