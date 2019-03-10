@@ -18,6 +18,11 @@ $spacingStandard: 16px;
 $spacingSmall: 8px;
 $spacingTiny: 4px;
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   color: $primaryText;
   font-family: "Quicksand", sans-serif;
@@ -33,6 +38,67 @@ h1, h2, h3, h4, h5, h6, p {
 a {
   color: inherit;
   text-decoration: inherit;
+}
+
+header {
+  z-index: 1000;
+  background-color: $primaryBackground;
+  position: fixed;
+
+  .links {
+    padding: $spacingStandard;
+    a {
+      padding: $spacingStandard;
+    }
+
+    a:hover {
+      cursor: pointer;
+      color: #FFFFFF;
+    }
+  }
+}
+
+.base-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+#about-header {
+  position: absolute;
+  top: 9999px;
+}
+
+#contact-header {
+  width: 100%;
+  position: absolute;
+  top: 9999px;
+}
+
+.header-separator {
+  width: 100%;
+  height: 8px;
+}
+
+.separator-green-1 {
+  background-color: #10AC84;
+}
+.separator-green-2 {
+  background-color: #098B6A;
+}
+.separator-blue-1 {
+  background-color: #54A0FF;
+}
+.separator-blue-2 {
+  background-color: #2E86DE;
+}
+.separator-yellow-1 {
+  background-color: #FECA57;
+}
+.separator-yellow-2 {
+  background-color: #FF9F43;
 }
 
 .highlight {
@@ -70,18 +136,19 @@ a {
 }
 
 #about {
-  display: flex;
-  flex-direction: row;
+  min-height: 100vh;
 
-  #highlights-personal {
-    justify-content: right;
+  .about-inner {
+    display: flex;
+    flex-direction: row;
   }
 
-  #highlights-work {
-    align-items: right;
+  #highlights-personal {
+    align-items: flex-end;
   }
 
   .section-highlights {
+    margin-top: $spacingLarge;
     width: 48%;
     display: flex;
     flex-direction: column;
@@ -94,8 +161,9 @@ a {
   }
 
   .highlight-separator {
+    margin-top: $spacingLarge;
     background-color: #8395A7;
-    width: 1px;
+    width: 1pt;
   }
 
   .highlight-header-right {
@@ -104,9 +172,11 @@ a {
 }
 
 #contact {
+  padding-top: $spacingLarge;
+  padding-bottom: 40vh;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 
   .contact-inner {

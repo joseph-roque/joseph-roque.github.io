@@ -21,42 +21,42 @@ loadjs: true
 </div>
 
 <div id="about">
-  <div id="highlights-personal" class="section-highlights">
-    <h1 class="highlight highlight-header-right">Personal Highlights</h1>
-    <div class="highlight-items">
-      {% for item in site.data.personal_highlights %}
-        {% include partial/highlight.html item=item %}
-      {% endfor %}
+  <div class="about-inner">
+    <div id="highlights-personal" class="section-highlights">
+      <h1 class="highlight highlight-header-right">Personal Highlights</h1>
+      <div class="highlight-items">
+        {% for item in site.data.personal_highlights %}
+          {% include partial/highlight.html item=item %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
-  <div class="highlight-separator"></div>
-  <div id="highlights-work" class="section-highlights">
-    <h1 class="highlight highlight-header">Work Highlights</h1>
-    <div class="highlight-items">
-      {% for item in site.data.work_highlights %}
-        {% include partial/highlight.html item=item %}
-      {% endfor %}
+    <div class="highlight-separator"></div>
+    <div id="highlights-work" class="section-highlights">
+      <h1 class="highlight highlight-header">Work Highlights</h1>
+      <div class="highlight-items">
+        {% for item in site.data.work_highlights %}
+          {% include partial/highlight.html item=item %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 </div>
 
-<div class="page-centred">
-  <div id="contact">
-    <div class="contact-inner">
-      <h1 class="highlight">Looking to get in touch?</h1>
-      <h3>Find me at the links below</h3>
-      <div class="links">
-        {% for item in site.data.contact %}
-          {% include partial/contact_link.html item=item %}
-        {% endfor %}
-        <a href="#"
-          data-nn="contact"
-          data-dd="josephroque"
-          data-tt="dev"
-          onclick="window.location.href = 'mailto:' + this.dataset.nn + '@' + this.dataset.dd + '.' + this.dataset.tt; return false;">
-          <img src="{{ base }}/assets/contact/standard/email.svg" alt="Email" onmouseover="this.src='{{ base }}/assets/contact/highlighted/email.svg'" onmouseout="this.src='{{ base }}/assets/contact/standard/email.svg'" />
-        </a>
-      </div>
+<div id="contact">
+  <div class="contact-inner">
+    <h1 class="highlight">Looking to get in touch?</h1>
+    <h3>Find me at the links below</h3>
+    <div class="links">
+      {% for item in site.data.contact %}
+        {% include partial/contact_link.html item=item %}
+      {% endfor %}
+      <a href="#"
+        data-nn="contact"
+        data-dd="josephroque"
+        data-tt="dev"
+        onclick="window.location.href = 'mailto:' + this.dataset.nn + '@' + this.dataset.dd + '.' + this.dataset.tt; return false;">
+        <img src="{{ base }}/assets/contact/standard/email.svg" alt="Email" onmouseover="this.src='{{ base }}/assets/contact/highlighted/email.svg'" onmouseout="this.src='{{ base }}/assets/contact/standard/email.svg'" />
+      </a>
     </div>
   </div>
 </div>
