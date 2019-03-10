@@ -8,5 +8,5 @@
   alt: Campus Guide
   description: Developed the <span class="highlight">Campus Guide</span> app to help new students at uOttawa orient themselves in the first weeks of school.
   technologies: React Native, Python
-  image: assets/personal/CampusGuide.png
+  image: assets/personal/campusguide.png
   link: https://github.com/josephroquedev/campus-guide
