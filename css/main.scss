@@ -117,6 +117,8 @@ header {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+  margin-left: $spacingStandard;
+  margin-right: $spacingStandard;
 
   img {
     width: 256px;
@@ -152,8 +154,8 @@ header {
     width: 48%;
     display: flex;
     flex-direction: column;
-    margin-left: $spacingLarge;
-    margin-right: $spacingLarge;
+    padding-left: $spacingLarge;
+    padding-right: $spacingLarge;
   }
 
   .highlight-items {
@@ -219,7 +221,6 @@ header {
     margin: $spacingStandard;
 
     img {
-      // float: left;
       width: 100px;
       height: auto;
       max-height: 100px;
@@ -231,6 +232,78 @@ header {
 
     p {
       margin: $spacingSmall;
+    }
+  }
+}
+
+// Mobile
+
+@media screen and (max-width: 850px) {
+  h1 { font-size: 18pt; }
+  h2 { font-size: 16pt; }
+  h3 { font-size: 14pt; }
+  p { font-size: 12pt; }
+
+  #me {
+    img {
+      width: 128px;
+      height: 128px;
+    }
+  }
+
+  #about {
+    .about-inner {
+      flex-direction: column;
+    }
+    .section-highlights {
+      padding-left: $spacingStandard;
+      padding-right: $spacingStandard;
+      width: 90%;
+    }
+
+    #highlights-personal {
+      align-items: flex-start;
+    }
+  }
+
+  #contact {
+    .links {
+      img {
+        width: 48px;
+        height: 48px;
+        margin: $spacingStandard;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    .links {
+      padding: $spacingSmall;
+      a {
+        padding: $spacingSmall;
+      }
+    }
+  }
+
+  .item-highlight {
+    .item-details {
+      img {
+        width: 48px;
+        height: auto;
+        max-height: 48px;
+      }
+    }
+  }
+
+  #contact {
+    .links {
+      img {
+        width: 24px;
+        height: 24px;
+        margin: $spacingSmall;
+      }
     }
   }
 }
