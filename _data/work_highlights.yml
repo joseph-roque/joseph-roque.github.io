@@ -1,9 +1,9 @@
 - name: <span class="highlight">React Native Developer</span> @ Shopify
-  alt: Shopify
-  description: Joined the <span class="highlight">Arrive</span> team in September 2019 to aid in development of a package tracking app for iOS and Android.
+  alt: Shop app
+  description: Joined the <span class="highlight">Shop</span> team in September 2019 to aid in development of a shopping assistant app for iOS and Android.
   technologies: TypeScript, GraphQL
-  image: assets/work/Shopify.png
-  link: https://shopify.ca
+  image: assets/work/Shop.png
+  link: https://shop.app
 - name: <span class="highlight">iOS Developer</span> @ Shopify
   alt: Shopify
   description: Working with the <span class="highlight">iOS Foundations</span> team to create highly reusable components for use in mobile apps throughout Shopify.
