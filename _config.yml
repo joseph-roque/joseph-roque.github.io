@@ -4,8 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
   A passionate and motivated mobile developer specializing in both iOS and Android app development.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://josephroque.dev" # the base hostname & protocol for your site
-twitter_username: josephroquedev
-github_username:  josephroquedev
+twitter_username: autoreleasefool
+github_username:  autoreleasefool
 
 # Build settings
 markdown: kramdown
