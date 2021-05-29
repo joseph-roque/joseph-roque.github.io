@@ -1,9 +1,7 @@
 ---
-
 layout: default
 title: Joseph Roque | Mobile Developer
 loadjs: true
-
 ---
 
 {% include base.html %}
@@ -13,8 +11,10 @@ loadjs: true
     <img src="{{ base }}/assets/profile.png" />
     <div class="description">
       <h1>My name's <span class="highlight">Joseph&nbsp;Roque</span></h1>
-      <h3>I'm an <span class="highlight">iOS</span> and <span class="highlight">React Native</span> Developer</h3>
-      <h3>Currently doing <span class="highlight">iOS</span> @ <span class="highlight">Shopify</span></h3>
+      <h3>
+        I'm an <span class="highlight">iOS</span> and
+        <span class="highlight">React Native</span> Developer
+      </h3>
       <h3>Learn more below</h3>
     </div>
   </div>
@@ -25,18 +25,16 @@ loadjs: true
     <div id="highlights-personal" class="section-highlights">
       <h1 class="highlight highlight-header-right">Personal Highlights</h1>
       <div class="highlight-items">
-        {% for item in site.data.personal_highlights %}
-          {% include partial/highlight.html item=item %}
-        {% endfor %}
+        {% for item in site.data.personal_highlights %} {% include
+        partial/highlight.html item=item %} {% endfor %}
       </div>
     </div>
     <div class="highlight-separator"></div>
     <div id="highlights-work" class="section-highlights">
       <h1 class="highlight highlight-header">Work Highlights</h1>
       <div class="highlight-items">
-        {% for item in site.data.work_highlights %}
-          {% include partial/highlight.html item=item %}
-        {% endfor %}
+        {% for item in site.data.work_highlights %} {% include
+        partial/highlight.html item=item %} {% endfor %}
       </div>
     </div>
   </div>
@@ -47,15 +45,21 @@ loadjs: true
     <h1 class="highlight">Looking to get in touch?</h1>
     <h3>Find me at the links below</h3>
     <div class="links">
-      {% for item in site.data.contact %}
-        {% include partial/contact_link.html item=item %}
-      {% endfor %}
-      <a href="#"
+      {% for item in site.data.contact %} {% include partial/contact_link.html
+      item=item %} {% endfor %}
+      <a
+        href="#"
         data-nn="contact"
         data-dd="josephroque"
         data-tt="dev"
-        onclick="window.location.href = 'mailto:' + this.dataset.nn + '@' + this.dataset.dd + '.' + this.dataset.tt; return false;">
-        <img src="{{ base }}/assets/contact/standard/email.svg" alt="Email" onmouseover="this.src='{{ base }}/assets/contact/highlighted/email.svg'" onmouseout="this.src='{{ base }}/assets/contact/standard/email.svg'" />
+        onclick="window.location.href = 'mailto:' + this.dataset.nn + '@' + this.dataset.dd + '.' + this.dataset.tt; return false;"
+      >
+        <img
+          src="{{ base }}/assets/contact/standard/email.svg"
+          alt="Email"
+          onmouseover="this.src='{{ base }}/assets/contact/highlighted/email.svg'"
+          onmouseout="this.src='{{ base }}/assets/contact/standard/email.svg'"
+        />
       </a>
     </div>
   </div>
